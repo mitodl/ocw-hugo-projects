@@ -1,0 +1,7 @@
+---
+baseUrl: "/"
+enableRobotsTXT: true
+languageCode: en-us
+relativeURLs: false
+title: MIT OpenCourseWare
+theme: ["base-theme", "course"]
