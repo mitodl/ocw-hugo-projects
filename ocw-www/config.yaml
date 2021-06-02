@@ -7,7 +7,4 @@ title: MIT OpenCourseWare
 caches:
   getjson:
     maxAge: 5m
-module:
-  imports:
-  - path: github.com/mitodl/ocw-hugo-themes/base-theme
-  - path: github.com/mitodl/ocw-hugo-themes/www
+theme: ["base-theme", "www"]
