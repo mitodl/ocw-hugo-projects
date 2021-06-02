@@ -1,0 +1,10 @@
+---
+baseUrl: "/"
+enableRobotsTXT: true
+languageCode: en-us
+relativeURLs: false
+title: MIT OpenCourseWare
+caches:
+  getjson:
+    maxAge: 5m
+theme: ["base-theme", "www"]
