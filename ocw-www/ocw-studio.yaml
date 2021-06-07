@@ -1,2 +1,52 @@
 ---
-collections: []
+collections:
+  - category: Content
+    folder: content/pages
+    label: Page
+    name: page
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+
+  - category: Content
+    folder: content/promos
+    label: Promo
+    name: promo
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Link
+        name: link
+        widget: object
+        fields:
+          - label: Link Title
+            name: link_title
+            widget: string
+
+          - label: Url
+            name: link_url
+            widget: string
+
+      - label: Image
+        name: image
+        widget: file
+
+  - category: Content
+    folder: content/notifications
+    label: Notification
+    name: notification
+    fields:
+      - label: Title
+        name: title
+        widget: string
+
+      - label: Headless
+        name: headless
+        widget: string
+        default: true
