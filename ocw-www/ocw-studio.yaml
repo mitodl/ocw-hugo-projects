@@ -56,7 +56,7 @@ collections:
 
       - label: Headless
         name: headless
-        widget: string
+        widget: hidden
         default: true
 
   - category: Content
