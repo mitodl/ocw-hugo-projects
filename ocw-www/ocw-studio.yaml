@@ -1,6 +1,6 @@
 ---
 collections:
-  - category: Content
+  - category:  Content
     folder: content/pages
     label: Page
     name: page
