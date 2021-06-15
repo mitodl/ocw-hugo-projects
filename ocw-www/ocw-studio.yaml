@@ -54,6 +54,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
+        minimal: true
 
       - label: Headless
         name: headless
