@@ -22,25 +22,25 @@ collections:
         name: title
         widget: string
 
-      - label: Link
-        name: link
-        widget: object
-        fields:
-          - label: Link Title
-            name: link_title
-            widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
 
-          - label: Url
-            name: link_url
-            widget: string
+      - label: Link Title
+        name: link_title
+        widget: string
 
-          - label: Image File
-            name: image
-            widget: file
+      - label: Url
+        name: link_url
+        widget: string
 
-          - label: Image Alt
-            name: image_alt
-            widget: string
+      - label: Image File
+        name: image
+        widget: file
+
+      - label: Image Alt
+        name: image_alt
+        widget: string
 
   - category: Content
     folder: content/notifications
@@ -67,10 +67,6 @@ collections:
     fields:
       - label: Title
         name: title
-        widget: string
-
-      - label: Subtitle
-        name: subtitle
         widget: string
 
       - label: Name
