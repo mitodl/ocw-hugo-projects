@@ -39,7 +39,7 @@ collections:
       - label: Image
         name: image
         widget: relation
-        collection: image
+        collection: resource
         display_field: title
         multiple: false
         min: 1
@@ -94,7 +94,7 @@ collections:
       - label: Image
         name: image
         widget: relation
-        collection: image
+        collection: resource
         display_field: title
         multiple: false
         min: 1
