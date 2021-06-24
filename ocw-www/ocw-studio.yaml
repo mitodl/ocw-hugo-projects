@@ -1,4 +1,5 @@
 ---
+base-url: ""
 collections:
   - category: Content
     folder: content/pages
