@@ -1,3 +1,58 @@
 ---
 root-url-path: courses
-collections:  []
+collections:
+  - category: Content
+    folder: content/pages
+    label: Page
+    name: pages
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
+      - label: Body
+        name: body
+        widget: markdown
+
+  - category: Content
+    folder: content/resources
+    label: Resources
+    name: resource
+    fields:
+      - label: Title
+        name: title
+        required: true
+        widget: string
+      - label: Description
+        name: description
+        widget: markdown
+        minimal: true
+      - label: File Type
+        name: filetype
+        required: true
+        widget: select
+        options:
+          - Image
+          - Video
+          - Document
+          - Other
+      - label: File
+        name: file
+        widget: file
+
+      # show the field below only if the type of resource is "image"
+      - label: Image Metadata
+        name: metadata
+        widget: object
+        condition: { field: filetype, equals: Image }
+        fields:
+          - label: Text alternative
+            name: image-alt
+            widget: string
+          - label: Caption
+            name: caption
+            widget: string
+          - label: Credit
+            name: credit
+            widget: text
