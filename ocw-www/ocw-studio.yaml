@@ -179,3 +179,8 @@ collections:
         name: salutation
         widget: string
         required: false
+
+      - label: Headless
+        name: headless
+        widget: hidden
+        default: true
