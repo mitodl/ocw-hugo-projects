@@ -56,3 +56,19 @@ collections:
           - label: Credit
             name: credit
             widget: text
+
+  - category: Settings
+    name: metadata
+    label: Metadata
+    files:
+      - file: data/metadata.json
+        name: coursemetadata
+        label: Course Metadata
+        fields:
+          - label: Instructors
+            name: instructors
+            widget: relation
+            collection: instructor
+            display_field: full_name
+            multiple: true
+
