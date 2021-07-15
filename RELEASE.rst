@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.0.3
+Version 0.0.3 (Released July 15, 2021)
 -------------
 
 - add basic pages and resources
