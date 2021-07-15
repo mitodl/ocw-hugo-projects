@@ -62,7 +62,7 @@ collections:
     label: Metadata
     files:
       - file: data/metadata.json
-        name: coursemetadata
+        name: sitemetadata
         label: Course Metadata
         fields:
           - label: Instructors
