@@ -69,6 +69,5 @@ collections:
             name: instructors
             widget: relation
             collection: instructor
-            display_field: full_name
+            display_field: display_name
             multiple: true
-

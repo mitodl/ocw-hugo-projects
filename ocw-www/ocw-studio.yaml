@@ -181,7 +181,7 @@ collections:
         required: false
 
       - label: Full name (incl salutation)
-        name: full_name
+        name: display_name
         widget: string
         required: true
 
