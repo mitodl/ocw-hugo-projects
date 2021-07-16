@@ -71,3 +71,4 @@ collections:
             collection: instructor
             display_field: display_name
             multiple: true
+            website: ocw-www
