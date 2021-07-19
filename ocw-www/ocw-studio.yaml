@@ -180,11 +180,6 @@ collections:
         widget: string
         required: false
 
-      - label: Full name (incl salutation)
-        name: display_name
-        widget: string
-        required: true
-
       - label: Headless
         name: headless
         widget: hidden
