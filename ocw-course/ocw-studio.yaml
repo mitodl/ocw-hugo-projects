@@ -69,6 +69,6 @@ collections:
             name: instructors
             widget: relation
             collection: instructor
-            display_field: display_name
+            display_field: title
             multiple: true
             website: ocw-www
