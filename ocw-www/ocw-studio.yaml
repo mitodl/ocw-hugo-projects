@@ -154,3 +154,33 @@ collections:
           - label: Credit
             name: credit
             widget: text
+
+  - category: Content
+    folder: content/instructors
+    label: Instructor
+    name: instructor
+    fields:
+      - label: First name
+        name: first_name
+        widget: string
+        required: true
+
+      - label: Middle initial
+        name: middle_initial
+        widget: string
+        required: false
+
+      - label: Last name
+        name: last_name
+        widget: string
+        required: true
+
+      - label: Salutation
+        name: salutation
+        widget: string
+        required: false
+
+      - label: Headless
+        name: headless
+        widget: hidden
+        default: true
