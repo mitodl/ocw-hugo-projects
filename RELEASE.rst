@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.1.0
+-------------
+
+- add department numbers as a multiple choice select to the course starter
+- Add instructor collection (#17)
+
 Version 0.0.3 (Released July 15, 2021)
 -------------
 
