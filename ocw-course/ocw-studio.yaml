@@ -65,6 +65,10 @@ collections:
         name: sitemetadata
         label: Course Metadata
         fields:
+          - label: "Course Title"
+            name: "course_title"
+            widget: "string"
+            required: true
           - label: "Department Numbers"
             max: 2
             min: 1
