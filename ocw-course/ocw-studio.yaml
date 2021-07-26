@@ -113,6 +113,14 @@ collections:
               - STS
               - WGS
             widget: "select"
+          - label: "Level"
+            name: "level"
+            options:
+              - 'Undergraduate'
+              - 'Graduate'
+              - 'Both'
+              - 'Non Credit'
+            widget: "select"
           - label: Instructors
             name: instructors
             widget: relation
