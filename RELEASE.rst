@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.2.0
+-------------
+
+- add standard github issue / PR templates
+- add course title
+
 Version 0.1.0 (Released July 22, 2021)
 -------------
 
