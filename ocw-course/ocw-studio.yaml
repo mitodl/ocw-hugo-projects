@@ -70,7 +70,6 @@ collections:
             widget: "string"
             required: true
           - label: "Department Numbers"
-            max: 2
             min: 1
             multiple: true
             name: "department_numbers"
