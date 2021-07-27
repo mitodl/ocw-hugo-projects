@@ -45,46 +45,46 @@ collections:
         widget: select
         multiple: true
         options:
-        - 'Course Introduction'
-        - 'Lecture Videos'
-        - 'Lecture Audio'
-        - 'Recitation Videos'
-        - 'Other Audio'
-        - 'Demonstration Audio'
-        - Music
-        - 'Other Video'
-        - 'Demonstration Videos'
-        - 'Video Materials'
-        - 'Competition Videos'
-        - 'Workshop Videos'
-        - Videos
-        - 'Tutorial Videos'
-        - 'Multiple Assignment Types'
-        - 'Multiple Assignment Types with Solutions'
-        - 'Activity Assignments'
-        - 'Activity Assignments with Examples'
-        - 'Design Assignments'
-        - 'Design Assignments with Examples'
-        - 'Media Assignments'
-        - 'Media Assignments with Examples'
-        - 'Presentation Assignments'
-        - 'Presentation Assignments with Examples'
-        - 'Problem Sets'
-        - 'Problem Sets with Solutions'
-        - 'Programming Assignments'
-        - 'Programming Assignments with Examples'
-        - 'Written Assignments'
-        - 'Written Assignments with Examples'
-        - 'Exam Materials'
-        - Exams
-        - 'Exams with Solutions'
-        - 'Image Gallery'
-        - Simulations
-        - 'Simulation Videos'
-        - 'Lecture Notes'
-        - 'Online Textbook'
-        - Projects
-        - 'Projects with Examples'
+          - 'Activity Assignment'
+          - 'Activity Assignment with Examples'
+          - 'Competition Video'
+          - 'Course Introduction'
+          - 'Demonstration Audio'
+          - 'Demonstration Video'
+          - 'Design Assignment'
+          - 'Design Assignment with Examples'
+          - 'Exam Material'
+          - Exam
+          - 'Exam with Solutions'
+          - 'Image Gallery'
+          - 'Lecture Audio'
+          - 'Lecture Note'
+          - 'Lecture Video'
+          - 'Media Assignment'
+          - 'Media Assignment with Examples'
+          - 'Multiple Assignment Types'
+          - 'Multiple Assignment Types with Solutions'
+          - Music
+          - 'Online Textbook'
+          - 'Other Audio'
+          - 'Other Video'
+          - 'Presentation Assignment'
+          - 'Presentation Assignment with Examples'
+          - 'Problem Set'
+          - 'Problem Set with Solutions'
+          - 'Programming Assignment'
+          - 'Programming Assignment with Examples'
+          - Project
+          - 'Project with Examples'
+          - 'Recitation Video'
+          - 'Simulation Video'
+          - Simulation
+          - 'Tutorial Video'
+          - 'Video Material'
+          - Video
+          - 'Workshop Video'
+          - 'Written Assignment'
+          - 'Written Assignment with Examples'
       # show the field below only if the type of resource is "image"
       - label: Image Metadata
         name: metadata
@@ -169,46 +169,46 @@ collections:
             widget: select
             multiple: true
             options:
-            - 'Course Introduction'
-            - 'Lecture Videos'
-            - 'Lecture Audio'
-            - 'Recitation Videos'
-            - 'Other Audio'
-            - 'Demonstration Audio'
-            - Music
-            - 'Other Video'
-            - 'Demonstration Videos'
-            - 'Video Materials'
-            - 'Competition Videos'
-            - 'Workshop Videos'
-            - Videos
-            - 'Tutorial Videos'
-            - 'Multiple Assignment Types'
-            - 'Multiple Assignment Types with Solutions'
-            - 'Activity Assignments'
-            - 'Activity Assignments with Examples'
-            - 'Design Assignments'
-            - 'Design Assignments with Examples'
-            - 'Media Assignments'
-            - 'Media Assignments with Examples'
-            - 'Presentation Assignments'
-            - 'Presentation Assignments with Examples'
-            - 'Problem Sets'
-            - 'Problem Sets with Solutions'
-            - 'Programming Assignments'
-            - 'Programming Assignments with Examples'
-            - 'Written Assignments'
-            - 'Written Assignments with Examples'
-            - 'Exam Materials'
-            - Exams
-            - 'Exams with Solutions'
-            - 'Image Gallery'
-            - Simulations
-            - 'Simulation Videos'
-            - 'Lecture Notes'
-            - 'Online Textbook'
-            - Projects
-            - 'Projects with Examples'
+              - 'Activity Assignments'
+              - 'Activity Assignments with Examples'
+              - 'Competition Videos'
+              - 'Course Introduction'
+              - 'Demonstration Audio'
+              - 'Demonstration Videos'
+              - 'Design Assignments'
+              - 'Design Assignments with Examples'
+              - 'Exam Materials'
+              - Exams
+              - 'Exams with Solutions'
+              - 'Image Gallery'
+              - 'Lecture Audio'
+              - 'Lecture Notes'
+              - 'Lecture Videos'
+              - 'Media Assignments'
+              - 'Media Assignments with Examples'
+              - 'Multiple Assignment Types'
+              - 'Multiple Assignment Types with Solutions'
+              - Music
+              - 'Online Textbook'
+              - 'Other Audio'
+              - 'Other Video'
+              - 'Presentation Assignments'
+              - 'Presentation Assignments with Examples'
+              - 'Problem Sets'
+              - 'Problem Sets with Solutions'
+              - 'Programming Assignments'
+              - 'Programming Assignments with Examples'
+              - Projects
+              - 'Projects with Examples'
+              - 'Recitation Videos'
+              - 'Simulation Videos'
+              - Simulations
+              - 'Tutorial Videos'
+              - 'Video Materials'
+              - Videos
+              - 'Workshop Videos'
+              - 'Written Assignments'
+              - 'Written Assignments with Examples'
           - label: Instructors
             name: instructors
             widget: relation
