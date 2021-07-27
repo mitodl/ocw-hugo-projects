@@ -130,8 +130,6 @@ collections:
             collection: resource
             display_field: title
             multiple: false
-            min: 1
-            max: 1
             filter:
               field: "filetype"
               filter_type: "equals"
@@ -142,8 +140,6 @@ collections:
             collection: resource
             display_field: title
             multiple: false
-            min: 1
-            max: 1
             filter:
               field: "filetype"
               filter_type: "equals"
