@@ -116,6 +116,14 @@ collections:
             name: "course_title"
             widget: "string"
             required: true
+          - label: "Primary Course Number"
+            name: "primary_course_number"
+            widget: "string"
+            required: true
+          - label: "Extra Course Numbers (comma separated list)"
+            name: "extra_course_numbers"
+            widget: "string"
+            required: true
           - label: "Department Numbers"
             min: 1
             multiple: true
