@@ -40,7 +40,54 @@ collections:
       - label: File
         name: file
         widget: file
-
+      - label: "Course Feature Tags"
+        name: "course_feature_tags"
+        widget: select
+        multiple: true
+        options:
+          - 'Activity Assignments'
+          - 'Activity Assignments with Examples'
+          - 'Competition Videos'
+          - 'Course Introduction'
+          - 'Demonstration Audio'
+          - 'Demonstration Videos'
+          - 'Design Assignments'
+          - 'Design Assignments with Examples'
+          - 'Exam Materials'
+          - Exams
+          - 'Exams with Solutions'
+          - 'Image Gallery'
+          - Labs
+          - 'Lecture Audio'
+          - 'Lecture Notes'
+          - 'Lecture Videos'
+          - 'Media Assignments'
+          - 'Media Assignments with Examples'
+          - 'Multiple Assignment Types'
+          - 'Multiple Assignment Types with Solutions'
+          - Music
+          - 'Online Textbook'
+          - 'Other Audio'
+          - 'Other Video'
+          - 'Presentation Assignments'
+          - 'Presentation Assignments with Examples'
+          - 'Problem Sets'
+          - 'Problem Sets with Solutions'
+          - 'Programming Assignments'
+          - 'Programming Assignments with Examples'
+          - Projects
+          - 'Projects with Examples'
+          - Readings
+          - 'Recitation Videos'
+          - 'Simulation Videos'
+          - Simulations
+          - Tools
+          - 'Tutorial Videos'
+          - 'Video Materials'
+          - Videos
+          - 'Workshop Videos'
+          - 'Written Assignments'
+          - 'Written Assignments with Examples'
       # show the field below only if the type of resource is "image"
       - label: Image Metadata
         name: metadata
@@ -65,6 +112,18 @@ collections:
         name: sitemetadata
         label: Course Metadata
         fields:
+          - label: "Course Title"
+            name: "course_title"
+            widget: "string"
+            required: true
+          - label: "Primary Course Number"
+            name: "primary_course_number"
+            widget: "string"
+            required: true
+          - label: "Extra Course Numbers (comma separated list)"
+            name: "extra_course_numbers"
+            widget: "string"
+            required: true
           - label: Course Image
             name: course_image
             widget: relation
@@ -90,7 +149,6 @@ collections:
               filter_type: "equals"
               value: "Image"
           - label: "Department Numbers"
-            max: 2
             min: 1
             multiple: true
             name: "department_numbers"
@@ -133,6 +191,62 @@ collections:
               - STS
               - WGS
             widget: "select"
+          - label: "Level"
+            name: "level"
+            options:
+              - 'Undergraduate'
+              - 'Graduate'
+              - 'Both'
+              - 'Non Credit'
+            widget: "select"
+          - label: "Course Feature Tags"
+            name: "course_feature_tags"
+            widget: select
+            multiple: true
+            options:
+              - 'Activity Assignments'
+              - 'Activity Assignments with Examples'
+              - 'Competition Videos'
+              - 'Course Introduction'
+              - 'Demonstration Audio'
+              - 'Demonstration Videos'
+              - 'Design Assignments'
+              - 'Design Assignments with Examples'
+              - 'Exam Materials'
+              - Exams
+              - 'Exams with Solutions'
+              - 'Image Gallery'
+              - Labs
+              - 'Lecture Audio'
+              - 'Lecture Notes'
+              - 'Lecture Videos'
+              - 'Media Assignments'
+              - 'Media Assignments with Examples'
+              - 'Multiple Assignment Types'
+              - 'Multiple Assignment Types with Solutions'
+              - Music
+              - 'Online Textbook'
+              - 'Other Audio'
+              - 'Other Video'
+              - 'Presentation Assignments'
+              - 'Presentation Assignments with Examples'
+              - 'Problem Sets'
+              - 'Problem Sets with Solutions'
+              - 'Programming Assignments'
+              - 'Programming Assignments with Examples'
+              - Projects
+              - 'Projects with Examples'
+              - Readings
+              - 'Recitation Videos'
+              - 'Simulation Videos'
+              - Simulations
+              - Tools
+              - 'Tutorial Videos'
+              - 'Video Materials'
+              - Videos
+              - 'Workshop Videos'
+              - 'Written Assignments'
+              - 'Written Assignments with Examples'
           - label: Instructors
             name: instructors
             widget: relation
