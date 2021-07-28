@@ -1,6 +1,17 @@
 Release Notes
 =============
 
+Version 0.2.2
+-------------
+
+- mark extra_course_numbers as not required (#38)
+- remove min and max from course image relation widgets
+- make resource features plural again, add readings labs and tools
+- alphabetize and remove plurals from resource tag list
+- add course feature tags to resources and course metadata
+- add primary course number and extra course numbers as required string fields in the course starter
+- add relation widgets in the course metadata for course image and course image thumbnail
+
 Version 0.2.1 (Released July 28, 2021)
 -------------
 
