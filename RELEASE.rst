@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.2.1
+Version 0.2.1 (Released July 28, 2021)
 -------------
 
 - remove max selection limit on department numbers
