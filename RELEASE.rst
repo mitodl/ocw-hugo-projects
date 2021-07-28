@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.2.2
+Version 0.2.2 (Released July 28, 2021)
 -------------
 
 - mark extra_course_numbers as not required (#38)
