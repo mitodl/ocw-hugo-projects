@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.2.3
+-------------
+
+- Added nav menu to site config
+
 Version 0.2.2 (Released July 28, 2021)
 -------------
 
