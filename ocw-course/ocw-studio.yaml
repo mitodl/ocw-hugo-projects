@@ -116,6 +116,9 @@ collections:
             name: "course_title"
             widget: "string"
             required: true
+          - label: "Course Description"
+            name: "course_description"
+            widget: "markdown"
           - label: "Primary Course Number"
             name: "primary_course_number"
             widget: "string"
