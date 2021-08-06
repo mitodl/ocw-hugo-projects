@@ -94,7 +94,7 @@ collections:
         widget: object
         condition: { field: filetype, equals: Image }
         fields:
-          - label: Text alternative
+          - label: ALT text
             name: image-alt
             widget: string
           - label: Caption
