@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.2.4
+-------------
+
+- fix: Text Alternative => ALT text (#46)
+- add markdown course description to metadata (#42)
+- page not pages (#52)
+
 Version 0.2.3 (Released July 29, 2021)
 -------------
 
