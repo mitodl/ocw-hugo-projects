@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.2.4
+Version 0.2.4 (Released August 06, 2021)
 -------------
 
 - fix: Text Alternative => ALT text (#46)
