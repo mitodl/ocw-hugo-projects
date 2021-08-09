@@ -252,3 +252,17 @@ collections:
             display_field: title
             multiple: true
             website: ocw-www
+
+  - category: Settings
+    label: Menu
+    name: menu
+    files:
+      - file: config/_default/menus.yaml
+        name: navmenu
+        label: Navigation Menu
+        fields:
+          - {
+            "label": "Menu",
+            "name": "leftnav",
+            "widget": "menu",
+          }
