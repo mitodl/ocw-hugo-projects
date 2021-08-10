@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.3.0
+-------------
+
+- add nav menu widget to course starter (#44)
+
 Version 0.2.4 (Released August 06, 2021)
 -------------
 
