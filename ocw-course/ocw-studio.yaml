@@ -103,6 +103,40 @@ collections:
           - label: Credit
             name: credit
             widget: text
+      # show the field below only if the type of resource is "Video"
+      - label: Video Metadata
+        name: metadata
+        widget: object
+        condition: { field: filetype, equals: Video }
+        fields:
+          - label: Video Thumbnail 
+            name: video_thumbnail_file # is it a URL or a file?
+            widget: hidden
+          - label: Video Captions (WebVTT) 
+            name: video_captions_file # is it a URL or a file? 
+            widget: hidden
+          - label: Video Transcript (PDF) 
+            name: video_transcript_file
+            widget: hidden
+          - label: YouTube ID
+            name: youtube_id
+            widget: string
+          - label: Video File
+            name: video_relation
+            widget: relation
+          - label: YouTube Speakers 
+            name: video_speakers
+            widget: string
+          - label: YouTube Tags (comma separated; max 100 characters) 
+            name: video_tags
+            widget: text
+          - label: Video Download URL (large)
+            name: video_download_large_URL
+            widget: hidden
+          - label: Video Download URL (small)
+            name: video_download_small_URL
+            widget: hidden
+          
 
   - category: Settings
     name: metadata
