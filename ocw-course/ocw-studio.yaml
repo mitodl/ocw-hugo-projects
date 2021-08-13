@@ -110,10 +110,10 @@ collections:
         condition: { field: filetype, equals: Video }
         fields:
           - label: Video Thumbnail 
-            name: video_thumbnail_file # is it a URL or a file?
+            name: video_thumbnail_file 
             widget: hidden
           - label: Video Captions (WebVTT) 
-            name: video_captions_file # is it a URL or a file? 
+            name: video_captions_file  
             widget: hidden
           - label: Video Transcript (PDF) 
             name: video_transcript_file
@@ -121,9 +121,6 @@ collections:
           - label: YouTube ID
             name: youtube_id
             widget: string
-          - label: Video File
-            name: video_relation
-            widget: relation
           - label: YouTube Speakers 
             name: video_speakers
             widget: string
