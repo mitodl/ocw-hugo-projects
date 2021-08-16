@@ -146,7 +146,7 @@ collections:
         condition: { field: filetype, equals: Image }
         fields:
           - label: ALT text
-            name: image-alt
+            name: image_alt
             widget: string
           - label: Caption
             name: caption
