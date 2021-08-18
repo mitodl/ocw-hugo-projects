@@ -109,15 +109,6 @@ collections:
         widget: object
         condition: { field: filetype, equals: Video }
         fields:
-          - label: Video Thumbnail 
-            name: video_thumbnail_file 
-            widget: hidden
-          - label: Video Captions (WebVTT) 
-            name: video_captions_file  
-            widget: hidden
-          - label: Video Transcript (PDF) 
-            name: video_transcript_file
-            widget: hidden
           - label: YouTube ID
             name: youtube_id
             widget: string
@@ -127,12 +118,21 @@ collections:
           - label: YouTube Tags (comma separated; max 100 characters) 
             name: video_tags
             widget: text
+          - label: Video Thumbnail 
+            name: video_thumbnail_file 
+            widget: file
+          - label: Video Captions (WebVTT) 
+            name: video_captions_file  
+            widget: file
+          - label: Video Transcript (PDF) 
+            name: video_transcript_file
+            widget: file
           - label: Video Download URL (large)
             name: video_download_large_URL
-            widget: hidden
+            widget: string
           - label: Video Download URL (small)
             name: video_download_small_URL
-            widget: hidden
+            widget: string
           
 
   - category: Settings
