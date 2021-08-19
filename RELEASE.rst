@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.3.1
+-------------
+
+- use underscore instead of hyphen in image_alt (#57)
+
 Version 0.3.0 (Released August 10, 2021)
 -------------
 
