@@ -103,9 +103,9 @@ collections:
           - label: Credit
             name: credit
             widget: text
-      # show the field below only if the type of resource is "image"
+      # show the sections below only if the type of resource is "Video"
       - label: Video Metadata
-        name: video_metadata
+        name: metadata
         widget: object
         condition: {field: filetype, equals: Video}
         fields:
