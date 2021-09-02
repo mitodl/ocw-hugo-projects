@@ -7,4 +7,12 @@ title: MIT OpenCourseWare
 caches:
   getjson:
     maxAge: 5m
+mediaTypes:
+  application/json:
+    suffixes:
+      - json
+outputs:
+  page:
+    - HTML
+    - JSON
 theme: ["base-theme", "www"]
