@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.3.2
+Version 0.3.2 (Released September 02, 2021)
 -------------
 
 - Video metadata fields (#61)
