@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.4.0
+-------------
+
+- separate metadata sections for videos, images (#65)
+
 Version 0.3.3 (Released September 07, 2021)
 -------------
 
