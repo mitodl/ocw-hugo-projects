@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.5.0
+Version 0.5.0 (Released September 20, 2021)
 -------------
 
 - Add topics field (#70)
