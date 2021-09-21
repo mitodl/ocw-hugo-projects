@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.5.1
+Version 0.5.1 (Released September 21, 2021)
 -------------
 
 - course_feature_tags->learningResourceType
