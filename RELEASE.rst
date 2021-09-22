@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.5.2
+Version 0.5.2 (Released September 22, 2021)
 -------------
 
 - Add attach:resource (#74)
