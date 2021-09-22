@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.5.2
+-------------
+
+- Add attach:resource (#74)
+- Rename resourcetype, add file_type (#72)
+
 Version 0.5.1 (Released September 21, 2021)
 -------------
 
