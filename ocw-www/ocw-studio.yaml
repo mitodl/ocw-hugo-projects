@@ -159,6 +159,7 @@ collections:
     folder: content/instructors
     label: Instructor
     name: instructor
+    slug: text_id
     fields:
       - label: First name
         name: first_name
