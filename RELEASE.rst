@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.6.0
+Version 0.6.0 (Released September 27, 2021)
 -------------
 
 - add license
