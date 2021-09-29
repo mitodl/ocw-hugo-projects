@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.7.0
+Version 0.7.0 (Released September 29, 2021)
 -------------
 
 - Add slug field for instructor (#80)
