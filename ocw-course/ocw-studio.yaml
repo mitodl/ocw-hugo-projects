@@ -17,6 +17,23 @@ collections:
         attach: resource
 
   - category: Content
+    folder: content/video_galleries
+    label: "Video Gallery"
+    name: video_gallery
+    fields:
+      - label: Videos
+        name: videos
+        widget: relation
+        multiple: true
+        collection: resource
+        display_field: title
+        sortable: true
+        filter:
+          field: "resourcetype"
+          filter_type: "equals"
+          value: "Video"
+
+  - category: Content
     folder: content/resources
     label: Resources
     name: resource
