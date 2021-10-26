@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.8.0
+Version 0.8.0 (Released October 26, 2021)
 -------------
 
 - add 'video gallery' content
