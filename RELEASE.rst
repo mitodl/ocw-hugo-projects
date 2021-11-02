@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.9.0
+-------------
+
+- Adjust level, add term and year fields (#91)
+
 Version 0.8.0 (Released October 26, 2021)
 -------------
 
