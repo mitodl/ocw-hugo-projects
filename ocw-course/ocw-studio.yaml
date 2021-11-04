@@ -21,6 +21,9 @@ collections:
     label: "Video Gallery"
     name: video_gallery
     fields:
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
       - label: Videos
         name: videos
         widget: relation
