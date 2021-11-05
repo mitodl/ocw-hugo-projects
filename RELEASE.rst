@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.10.1
+--------------
+
+- ignore errors getting json during course builds (#96)
+
 Version 0.10.0 (Released November 05, 2021)
 --------------
 
