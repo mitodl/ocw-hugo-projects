@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.10.0
+Version 0.10.0 (Released November 05, 2021)
 --------------
 
 - add a description field to video galleries (#93)
