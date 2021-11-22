@@ -14,6 +14,19 @@ collections:
       - label: Body
         name: body
         widget: markdown
+   
+  - category: Content
+    folder: content/resource_collections
+    label: "Resource Collections"
+    name: "resource_collections"
+    fields:
+      - widget: relation
+        name: resources
+        label: Resources
+        collection: resource
+        display_field: title
+        cross_site: true
+        sortable: true
 
   - category: Content
     folder: content/promos
