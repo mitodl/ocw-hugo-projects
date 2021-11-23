@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.11.0
+--------------
+
+- Update ocw-studio.yaml
+
 Version 0.10.1 (Released November 08, 2021)
 --------------
 
