@@ -16,3 +16,7 @@ outputs:
     - HTML
     - JSON
 theme: ["base-theme", "www"]
+security:
+  funcs:
+    getenv:
+    - .*

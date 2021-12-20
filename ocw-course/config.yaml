@@ -6,3 +6,7 @@ relativeURLs: false
 title: MIT OpenCourseWare
 theme: ["base-theme", "course"]
 ignoreErrors: ["error-remote-getjson"]
+security:
+  funcs:
+    getenv:
+    - .*
