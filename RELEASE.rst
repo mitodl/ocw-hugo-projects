@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.12.0
+--------------
+
+- legacy_uid
+
 Version 0.11.0 (Released November 23, 2021)
 --------------
 
