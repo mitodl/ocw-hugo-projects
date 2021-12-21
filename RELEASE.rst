@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.12.0
+Version 0.12.0 (Released December 21, 2021)
 --------------
 
 - hugo 0.91 security updates (#106)
