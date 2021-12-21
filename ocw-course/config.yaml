@@ -6,6 +6,19 @@ relativeURLs: false
 title: MIT OpenCourseWare
 theme: ["base-theme", "course"]
 ignoreErrors: ["error-remote-getjson"]
+outputFormats:
+  coursedata:
+    mediaType: "application/json"
+    baseName: "course_data"
+    isPlainText: true
+outputs:
+  home:
+    - coursedata
+    - HTML
+  page:
+    - HTML    
+  section:
+    - HTML    
 security:
   funcs:
     getenv:
