@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.12.1
+--------------
+
+- config for course_data.json
+
 Version 0.12.0 (Released December 21, 2021)
 --------------
 
