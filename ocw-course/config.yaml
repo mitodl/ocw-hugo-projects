@@ -9,15 +9,17 @@ ignoreErrors: ["error-remote-getjson"]
 outputFormats:
   coursedata:
     mediaType: "application/json"
-    baseName: "course_data"
+    baseName: "data"
     isPlainText: true
 outputs:
   home:
     - coursedata
     - HTML
   page:
+    - coursedata
     - HTML    
   section:
+    - coursedata
     - HTML    
 security:
   funcs:
