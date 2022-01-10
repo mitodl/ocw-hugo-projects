@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.13.0
+Version 0.13.0 (Released January 10, 2022)
 --------------
 
 - config for json course pages
