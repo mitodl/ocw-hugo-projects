@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.14.0
+--------------
+
+- add config for course collections
+
 Version 0.13.0 (Released January 10, 2022)
 --------------
 
