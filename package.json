@@ -1,0 +1,11 @@
+{
+  "name": "ocw-hugo-projects",
+  "repository": "git@github.com:mitodl/ocw-hugo-projects.git",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "fmt": "prettier --write **/*.yaml",
+    "fmt:check": "prettier --check **/*.yaml"
+  }
+}

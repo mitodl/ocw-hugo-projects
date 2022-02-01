@@ -19,10 +19,10 @@ theme: ["base-theme", "www"]
 security:
   funcs:
     getenv:
-    - ^HUGO_
-    - GTM_ACCOUNT_ID
-    - RESOURCE_BASE_URL
-    - STATIC_API_BASE_URL
-    - OCW_STUDIO_BASE_URL
-    - OCW_IMPORT_STARTER_SLUG
-    - COURSE_BASE_URL
+      - ^HUGO_
+      - GTM_ACCOUNT_ID
+      - RESOURCE_BASE_URL
+      - STATIC_API_BASE_URL
+      - OCW_STUDIO_BASE_URL
+      - OCW_IMPORT_STARTER_SLUG
+      - COURSE_BASE_URL

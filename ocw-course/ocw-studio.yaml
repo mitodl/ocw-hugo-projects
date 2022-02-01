@@ -102,50 +102,50 @@ collections:
         widget: select
         multiple: true
         options:
-          - 'Activity Assignments'
-          - 'Activity Assignments with Examples'
-          - 'Competition Videos'
-          - 'Course Introduction'
-          - 'Demonstration Audio'
-          - 'Demonstration Videos'
-          - 'Design Assignments'
-          - 'Design Assignments with Examples'
-          - 'Exam Materials'
+          - "Activity Assignments"
+          - "Activity Assignments with Examples"
+          - "Competition Videos"
+          - "Course Introduction"
+          - "Demonstration Audio"
+          - "Demonstration Videos"
+          - "Design Assignments"
+          - "Design Assignments with Examples"
+          - "Exam Materials"
           - Exams
-          - 'Exams with Solutions'
-          - 'Image Gallery'
-          - 'Instructor Insights'
+          - "Exams with Solutions"
+          - "Image Gallery"
+          - "Instructor Insights"
           - Labs
-          - 'Lecture Audio'
-          - 'Lecture Notes'
-          - 'Lecture Videos'
-          - 'Media Assignments'
-          - 'Media Assignments with Examples'
-          - 'Multiple Assignment Types'
-          - 'Multiple Assignment Types with Solutions'
+          - "Lecture Audio"
+          - "Lecture Notes"
+          - "Lecture Videos"
+          - "Media Assignments"
+          - "Media Assignments with Examples"
+          - "Multiple Assignment Types"
+          - "Multiple Assignment Types with Solutions"
           - Music
-          - 'Online Textbook'
-          - 'Other Audio'
-          - 'Other Video'
-          - 'Presentation Assignments'
-          - 'Presentation Assignments with Examples'
-          - 'Problem Sets'
-          - 'Problem Sets with Solutions'
-          - 'Programming Assignments'
-          - 'Programming Assignments with Examples'
+          - "Online Textbook"
+          - "Other Audio"
+          - "Other Video"
+          - "Presentation Assignments"
+          - "Presentation Assignments with Examples"
+          - "Problem Sets"
+          - "Problem Sets with Solutions"
+          - "Programming Assignments"
+          - "Programming Assignments with Examples"
           - Projects
-          - 'Projects with Examples'
+          - "Projects with Examples"
           - Readings
-          - 'Recitation Videos'
-          - 'Simulation Videos'
+          - "Recitation Videos"
+          - "Simulation Videos"
           - Simulations
           - Tools
-          - 'Tutorial Videos'
-          - 'Video Materials'
+          - "Tutorial Videos"
+          - "Video Materials"
           - Videos
-          - 'Workshop Videos'
-          - 'Written Assignments'
-          - 'Written Assignments with Examples'
+          - "Workshop Videos"
+          - "Written Assignments"
+          - "Written Assignments with Examples"
       - label: License
         name: license
         options:
@@ -180,31 +180,31 @@ collections:
       - label: Video Metadata
         name: video_metadata
         widget: object
-        condition: {field: resourcetype, equals: Video}
+        condition: { field: resourcetype, equals: Video }
         fields:
-        - label: Youtube ID
-          name: youtube_id
-          widget: string
-        - label: Youtube Speakers
-          name: video_speakers
-          widget: string
-        - label: Youtube Tags (comma separated; max 100 characters)
-          name: video_tags
-          widget: text
+          - label: Youtube ID
+            name: youtube_id
+            widget: string
+          - label: Youtube Speakers
+            name: video_speakers
+            widget: string
+          - label: Youtube Tags (comma separated; max 100 characters)
+            name: video_tags
+            widget: text
       - label: Video Files
         name: video_files
         widget: object
-        condition: {field: resourcetype, equals: Video}
+        condition: { field: resourcetype, equals: Video }
         fields:
-        - label: Video Thumbnail URL
-          name: video_thumbnail_file
-          widget: string
-        - label: Video Captions (WebVTT) URL
-          name: video_captions_file
-          widget: string
-        - label: Video Transcript (PDF) URL
-          name: video_transcript_file
-          widget: string
+          - label: Video Thumbnail URL
+            name: video_thumbnail_file
+            widget: string
+          - label: Video Captions (WebVTT) URL
+            name: video_captions_file
+            widget: string
+          - label: Video Transcript (PDF) URL
+            name: video_transcript_file
+            widget: string
 
   - category: Settings
     name: metadata
@@ -253,31 +253,31 @@ collections:
             multiple: true
             name: "department_numbers"
             options:
-              - '1'
-              - '2'
-              - '3'
-              - '4'
-              - '5'
-              - '6'
-              - '7'
-              - '8'
-              - '9'
-              - '10'
-              - '11'
-              - '12'
-              - '14'
-              - '15'
-              - '16'
-              - '17'
-              - '18'
-              - '20'
+              - "1"
+              - "2"
+              - "3"
+              - "4"
+              - "5"
+              - "6"
+              - "7"
+              - "8"
+              - "9"
+              - "10"
+              - "11"
+              - "12"
+              - "14"
+              - "15"
+              - "16"
+              - "17"
+              - "18"
+              - "20"
               - 21A
               - 21G
               - 21H
               - 21L
               - 21M
-              - '22'
-              - '24'
+              - "22"
+              - "24"
               - CC
               - CMS-W
               - EC
@@ -295,9 +295,9 @@ collections:
             name: "level"
             multiple: true
             options:
-              - 'Undergraduate'
-              - 'Graduate'
-              - 'Non Credit'
+              - "Undergraduate"
+              - "Graduate"
+              - "Non Credit"
             widget: "select"
           - label: "Term"
             name: "term"
@@ -315,50 +315,50 @@ collections:
             widget: select
             multiple: true
             options:
-              - 'Activity Assignments'
-              - 'Activity Assignments with Examples'
-              - 'Competition Videos'
-              - 'Course Introduction'
-              - 'Demonstration Audio'
-              - 'Demonstration Videos'
-              - 'Design Assignments'
-              - 'Design Assignments with Examples'
-              - 'Exam Materials'
+              - "Activity Assignments"
+              - "Activity Assignments with Examples"
+              - "Competition Videos"
+              - "Course Introduction"
+              - "Demonstration Audio"
+              - "Demonstration Videos"
+              - "Design Assignments"
+              - "Design Assignments with Examples"
+              - "Exam Materials"
               - Exams
-              - 'Exams with Solutions'
-              - 'Image Gallery'
-              - 'Instructor Insights'
+              - "Exams with Solutions"
+              - "Image Gallery"
+              - "Instructor Insights"
               - Labs
-              - 'Lecture Audio'
-              - 'Lecture Notes'
-              - 'Lecture Videos'
-              - 'Media Assignments'
-              - 'Media Assignments with Examples'
-              - 'Multiple Assignment Types'
-              - 'Multiple Assignment Types with Solutions'
+              - "Lecture Audio"
+              - "Lecture Notes"
+              - "Lecture Videos"
+              - "Media Assignments"
+              - "Media Assignments with Examples"
+              - "Multiple Assignment Types"
+              - "Multiple Assignment Types with Solutions"
               - Music
-              - 'Online Textbook'
-              - 'Other Audio'
-              - 'Other Video'
-              - 'Presentation Assignments'
-              - 'Presentation Assignments with Examples'
-              - 'Problem Sets'
-              - 'Problem Sets with Solutions'
-              - 'Programming Assignments'
-              - 'Programming Assignments with Examples'
+              - "Online Textbook"
+              - "Other Audio"
+              - "Other Video"
+              - "Presentation Assignments"
+              - "Presentation Assignments with Examples"
+              - "Problem Sets"
+              - "Problem Sets with Solutions"
+              - "Programming Assignments"
+              - "Programming Assignments with Examples"
               - Projects
-              - 'Projects with Examples'
+              - "Projects with Examples"
               - Readings
-              - 'Recitation Videos'
-              - 'Simulation Videos'
+              - "Recitation Videos"
+              - "Simulation Videos"
               - Simulations
               - Tools
-              - 'Tutorial Videos'
-              - 'Video Materials'
+              - "Tutorial Videos"
+              - "Video Materials"
               - Videos
-              - 'Workshop Videos'
-              - 'Written Assignments'
-              - 'Written Assignments with Examples'
+              - "Workshop Videos"
+              - "Written Assignments"
+              - "Written Assignments with Examples"
           - label: Instructors
             name: instructors
             widget: relation
@@ -375,35 +375,35 @@ collections:
               - { label: "Speciality", name: "speciality" }
             options_map:
               Business:
-                Accounting: [ ]
-                Business Ethics: [ ]
-                Entrepreneurship: [ ]
-                Finance: [ ]
-                Globalization: [ ]
-                Health Care Management: [ ]
-                Industrial Relations and Human Resource Management: [ ]
-                Information Technology: [ ]
-                Innovation: [ ]
-                Leadership: [ ]
-                Management: [ ]
-                Marketing: [ ]
-                Operations Management: [ ]
-                Organizational Behavior: [ ]
-                Project Management: [ ]
-                Real Estate: [ ]
-                Supply Chain Management: [ ]
+                Accounting: []
+                Business Ethics: []
+                Entrepreneurship: []
+                Finance: []
+                Globalization: []
+                Health Care Management: []
+                Industrial Relations and Human Resource Management: []
+                Information Technology: []
+                Innovation: []
+                Leadership: []
+                Management: []
+                Marketing: []
+                Operations Management: []
+                Organizational Behavior: []
+                Project Management: []
+                Real Estate: []
+                Supply Chain Management: []
               Energy:
-                Buildings: [ ]
-                Climate: [ ]
-                Combustion: [ ]
-                Electricity: [ ]
-                Fossil Fuels: [ ]
-                Fuel Cells: [ ]
-                Hydrogen and Alternatives: [ ]
-                Nuclear: [ ]
-                Renewables: [ ]
-                Technology: [ ]
-                Transportation: [ ]
+                Buildings: []
+                Climate: []
+                Combustion: []
+                Electricity: []
+                Fossil Fuels: []
+                Fuel Cells: []
+                Hydrogen and Alternatives: []
+                Nuclear: []
+                Renewables: []
+                Technology: []
+                Transportation: []
               Engineering:
                 Aerospace Engineering:
                   - Astrodynamics
@@ -470,7 +470,7 @@ collections:
                   - Solid Mechanics
                   - Mechanical Design
                   - Dynamics and Control
-                Nanotechnology: [ ]
+                Nanotechnology: []
                 Nuclear Engineering:
                   - Nuclear Systems, Policy, and Economics
                   - Radiological Engineering
@@ -493,8 +493,8 @@ collections:
                   - Environmental Design
                   - Architectural History and Criticism
                   - Architectural Engineering
-                Art History: [ ]
-                Game Design: [ ]
+                Art History: []
+                Game Design: []
                 Media Studies:
                   - Digital Media
                 Music:
@@ -510,27 +510,27 @@ collections:
                   - Film and Video
                   - Graphic Design
               Health and Medicine:
-                Anatomy and Physiology: [ ]
-                Biomedical Enterprise: [ ]
-                Biomedical Instrumentation: [ ]
-                Biomedical Signal and Image Processing: [ ]
-                Biomedicine: [ ]
-                Cancer: [ ]
-                Cellular and Molecular Medicine: [ ]
-                Epidemiology: [ ]
-                Functional Genomics: [ ]
-                Health and Exercise Science: [ ]
-                Immunology: [ ]
-                Medical Imaging: [ ]
-                Mental Health: [ ]
-                Pathology and Pathophysiology: [ ]
-                Pharmacology and Toxicology: [ ]
-                Physical Education and Recreation: [ ]
-                Public Health: [ ]
-                Sensory-Neural Systems: [ ]
-                Social Medicine: [ ]
-                Spectroscopy: [ ]
-                Speech Pathology: [ ]
+                Anatomy and Physiology: []
+                Biomedical Enterprise: []
+                Biomedical Instrumentation: []
+                Biomedical Signal and Image Processing: []
+                Biomedicine: []
+                Cancer: []
+                Cellular and Molecular Medicine: []
+                Epidemiology: []
+                Functional Genomics: []
+                Health and Exercise Science: []
+                Immunology: []
+                Medical Imaging: []
+                Mental Health: []
+                Pathology and Pathophysiology: []
+                Pharmacology and Toxicology: []
+                Physical Education and Recreation: []
+                Public Health: []
+                Sensory-Neural Systems: []
+                Social Medicine: []
+                Spectroscopy: []
+                Speech Pathology: []
               Humanities:
                 History:
                   - European History
@@ -587,19 +587,19 @@ collections:
                   - Metaphysics
                   - Ethics
                   - Logic
-                Religion: [ ]
+                Religion: []
               Mathematics:
-                Algebra and Number Theory: [ ]
-                Applied Mathematics: [ ]
-                Calculus: [ ]
-                Computation: [ ]
-                Differential Equations: [ ]
-                Discrete Mathematics: [ ]
-                Linear Algebra: [ ]
-                Mathematical Analysis: [ ]
-                Mathematical Logic: [ ]
-                Probability and Statistics: [ ]
-                Topology and Geometry: [ ]
+                Algebra and Number Theory: []
+                Applied Mathematics: []
+                Calculus: []
+                Computation: []
+                Differential Equations: []
+                Discrete Mathematics: []
+                Linear Algebra: []
+                Mathematical Analysis: []
+                Mathematical Logic: []
+                Probability and Statistics: []
+                Topology and Geometry: []
               Science:
                 Biology:
                   - Stem Cells
@@ -622,7 +622,7 @@ collections:
                   - Physical Chemistry
                   - Organic Chemistry
                   - Inorganic Chemistry
-                Cognitive Science: [ ]
+                Cognitive Science: []
                 Earth Science:
                   - Planetary Science
                   - Geology
@@ -653,8 +653,8 @@ collections:
                   - Ethnography
                   - Social Anthropology
                   - Biological Anthropology
-                Archaeology: [ ]
-                Communication: [ ]
+                Archaeology: []
+                Communication: []
                 Economics:
                   - Industrial Organization
                   - Political Economy
@@ -667,14 +667,14 @@ collections:
                   - Labor Economics
                   - International Economics
                   - Econometrics
-                Game Theory: [ ]
-                Geography: [ ]
-                Legal Studies: [ ]
+                Game Theory: []
+                Geography: []
+                Legal Studies: []
                 Political Science:
                   - American Politics
                   - International Relations
                   - Comparative Politics
-                Psychology: [ ]
+                Psychology: []
                 Public Administration:
                   - Environmental Policy
                   - Social Welfare
@@ -692,25 +692,25 @@ collections:
                   - Urban Planning
                   - Transportation Planning
               Society:
-                African American Studies: [ ]
-                Asian Studies: [ ]
-                European and Russian Studies: [ ]
-                Gender Studies: [ ]
-                Global Poverty: [ ]
-                Indigenous Studies: [ ]
-                Latin and Caribbean Studies: [ ]
-                Middle Eastern Studies: [ ]
-                The Developing World: [ ]
-                Women's Studies: [ ]
+                African American Studies: []
+                Asian Studies: []
+                European and Russian Studies: []
+                Gender Studies: []
+                Global Poverty: []
+                Indigenous Studies: []
+                Latin and Caribbean Studies: []
+                Middle Eastern Studies: []
+                The Developing World: []
+                Women's Studies: []
               Teaching and Education:
-                Curriculum and Teaching: [ ]
-                Education Policy: [ ]
-                Educational Technology: [ ]
-                Higher Education: [ ]
+                Curriculum and Teaching: []
+                Education Policy: []
+                Educational Technology: []
+                Higher Education: []
           - label: "Legacy UID"
             name: "legacy_uid"
             widget: "string"
-            
+
   - category: Settings
     label: Menu
     name: menu
@@ -719,8 +719,4 @@ collections:
         name: navmenu
         label: Navigation Menu
         fields:
-          - {
-            "label": "Menu",
-            "name": "leftnav",
-            "widget": "menu",
-          }
+          - { "label": "Menu", "name": "leftnav", "widget": "menu" }

@@ -23,7 +23,7 @@ collections:
         link:
           - course_collections
           - resource_collections
-   
+
   - category: Content
     folder: content/resource_collections
     label: "Resource Collections"
@@ -158,7 +158,7 @@ collections:
         required: true
         widget: boolean
         help: Enable this setting to prevent publishing in production
-        
+
       - label: Title
         name: title
         widget: string
@@ -316,8 +316,4 @@ collections:
         name: navmenu
         label: Navigation Menu
         fields:
-          - {
-            "label": "Menu",
-            "name": "mainmenu",
-            "widget": "menu",
-          }
+          - { "label": "Menu", "name": "mainmenu", "widget": "menu" }
