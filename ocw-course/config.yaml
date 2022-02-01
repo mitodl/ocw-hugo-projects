@@ -11,9 +11,14 @@ outputFormats:
     mediaType: "application/json"
     baseName: "data"
     isPlainText: true
+  contentmap:
+    mediaType: "application/json"
+    baseName: "content_map"
+    isPlainText: true
 outputs:
   home:
     - coursedata
+    - contentmap
     - HTML
   page:
     - coursedata
