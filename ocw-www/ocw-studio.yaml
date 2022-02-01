@@ -20,6 +20,10 @@ collections:
     label: "Resource Collections"
     name: "resource_collections"
     fields:
+      - label: Description
+        name: description
+        widget: markdown
+
       - widget: relation
         name: resources
         label: Resources
