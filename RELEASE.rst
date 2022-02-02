@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.14.1
+--------------
+
+- add a markdown description field to the resource collection
+
 Version 0.14.0 (Released January 19, 2022)
 --------------
 
