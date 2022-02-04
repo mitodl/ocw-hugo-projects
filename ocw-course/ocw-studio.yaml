@@ -324,6 +324,9 @@ collections:
               - 'Workshop Videos'
               - 'Written Assignments'
               - 'Written Assignments with Examples'
+              - 'Introductory'
+              - 'Self-Learner Complete'
+              - 'Zero Textbook Cost'
           - label: Instructors
             name: instructors
             widget: relation
