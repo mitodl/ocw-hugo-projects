@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.14.1
+Version 0.14.1 (Released February 08, 2022)
 --------------
 
 - add output type for content map, add that to the homepage
