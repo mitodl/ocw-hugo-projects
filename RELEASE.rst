@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.14.1
+--------------
+
+- add output type for content map, add that to the homepage
+- add a markdown description field to the resource collection
+
 Version 0.14.0 (Released January 19, 2022)
 --------------
 
