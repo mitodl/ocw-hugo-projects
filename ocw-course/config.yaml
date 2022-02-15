@@ -36,3 +36,7 @@ security:
     - OCW_STUDIO_BASE_URL
     - OCW_IMPORT_STARTER_SLUG
     - COURSE_BASE_URL
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
