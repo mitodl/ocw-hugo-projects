@@ -6,6 +6,11 @@ collections:
     label: Pages
     name: page
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+
       - label: Title
         name: title
         widget: string
@@ -21,9 +26,20 @@ collections:
     label: "Video Gallery"
     name: video_gallery
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
       - label: "Description"
         name: "description"
         widget: "markdown"
+
       - label: Videos
         name: videos
         widget: relation
@@ -41,6 +57,11 @@ collections:
     label: Resources
     name: resource
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+
       - label: Title
         name: title
         required: true
