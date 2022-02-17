@@ -81,6 +81,7 @@ collections:
           - Exams
           - 'Exams with Solutions'
           - 'Image Gallery'
+          - 'Instructor Insights'
           - Labs
           - 'Lecture Audio'
           - 'Lecture Notes'
@@ -293,6 +294,7 @@ collections:
               - Exams
               - 'Exams with Solutions'
               - 'Image Gallery'
+              - 'Instructor Insights'
               - Labs
               - 'Lecture Audio'
               - 'Lecture Notes'
