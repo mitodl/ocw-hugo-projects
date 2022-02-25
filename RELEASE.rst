@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.14.2
+Version 0.14.2 (Released February 25, 2022)
 --------------
 
 - do not allow embedding pages
