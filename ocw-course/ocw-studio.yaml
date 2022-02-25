@@ -19,7 +19,6 @@ collections:
           - page
         embed:
           - resource
-          - page
 
   - category: Content
     folder: content/video_galleries
