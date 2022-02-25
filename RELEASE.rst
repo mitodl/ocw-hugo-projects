@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.14.2
+--------------
+
+- do not allow embedding pages
+- remove attach; add link + embed
+- feat: learning resource type: instructor insights added
+
 Version 0.14.1 (Released February 08, 2022)
 --------------
 
