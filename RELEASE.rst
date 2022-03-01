@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.14.3
+--------------
+
+- add draft to the types of content that need it (#125)
+
 Version 0.14.2 (Released February 25, 2022)
 --------------
 
