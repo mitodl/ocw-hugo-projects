@@ -6,6 +6,12 @@ collections:
     label: Page
     name: pages
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
       - label: Title
         name: title
         widget: string
@@ -23,6 +29,17 @@ collections:
     label: "Resource Collections"
     name: "resource_collections"
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
       - label: Description
         name: description
         widget: markdown
@@ -40,6 +57,12 @@ collections:
     label: "Course Collections"
     name: "course_collections"
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
       - label: Title
         name: title
         widget: string
@@ -58,6 +81,12 @@ collections:
     label: Promo
     name: promos
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
       - label: Title
         name: title
         widget: string
@@ -93,6 +122,12 @@ collections:
     label: Notification
     name: notifications
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+        
       - label: Title
         name: title
         widget: string
@@ -113,6 +148,12 @@ collections:
     label: Testimonial
     name: testimonials
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
       - label: Title
         name: title
         widget: string
@@ -156,6 +197,12 @@ collections:
     label: Resources
     name: resource
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
       - label: Title
         name: title
         required: true
@@ -199,6 +246,12 @@ collections:
     name: instructor
     slug: text_id
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help_text: Enable this setting to prevent publishing in production
+
       - label: First name
         name: first_name
         widget: string
