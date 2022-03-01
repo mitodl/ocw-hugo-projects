@@ -10,7 +10,7 @@ collections:
         name: draft
         required: true
         widget: boolean
-        help_text: Enable this setting to prevent publishing in production
+        help: Enable this setting to prevent publishing in production
 
       - label: Title
         name: title
@@ -35,7 +35,7 @@ collections:
         name: draft
         required: true
         widget: boolean
-        help_text: Enable this setting to prevent publishing in production
+        help: Enable this setting to prevent publishing in production
 
       - label: Title
         name: title
@@ -67,7 +67,7 @@ collections:
         name: draft
         required: true
         widget: boolean
-        help_text: Enable this setting to prevent publishing in production
+        help: Enable this setting to prevent publishing in production
 
       - label: Title
         name: title
