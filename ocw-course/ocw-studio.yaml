@@ -42,9 +42,14 @@ collections:
         widget: string
         required: true
 
-      - label: "Description"
-        name: "description"
-        widget: "markdown"
+      - label: Body
+        name: body
+        widget: markdown
+        link:
+          - resource
+          - page
+        embed:
+          - resource
 
       - label: Videos
         name: videos
