@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.15.0
+--------------
+
+- set the syntax highlighting theme to 'colorful'
+- make video_gallery markdown body editable
+
 Version 0.14.3 (Released March 02, 2022)
 --------------
 
