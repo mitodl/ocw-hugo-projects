@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.15.0
+Version 0.15.0 (Released March 08, 2022)
 --------------
 
 - set the syntax highlighting theme to 'colorful'
