@@ -53,9 +53,9 @@ collections:
         sortable: true
 
   - category: Content
-    folder: content/course_collections
-    label: "Course Collections"
-    name: "course_collections"
+    folder: content/course-lists
+    label: "Course Lists"
+    name: "course-lists"
     fields:
       - label: Draft
         name: draft
@@ -75,6 +75,37 @@ collections:
       - label: Courses
         name: courses
         widget: website-collection
+
+  - category: Content
+    folder: content/collections
+    label: "Course Collections"
+    name: course-collection
+    fields:
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+      - label: Cover Image
+        name: cover-image
+        widget: relation
+        collection: resource
+        display_field: title
+        multiple: false
+        filter:
+          field: "filetype"
+          filter_type: "equals"
+          value: "Image"
+
+      - label: Featured Courses
+        name: featured-courses
+        widget: website-collection
+
+      - label: Course Collections
+        name: collections
+        widget: relation
+        multiple: true
+        collection: course-lists
+        display_field: title
+        sortable: true
 
   - category: Content
     folder: content/promos
