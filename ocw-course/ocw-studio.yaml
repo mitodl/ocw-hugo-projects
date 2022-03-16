@@ -709,8 +709,13 @@ collections:
                 Higher Education: []
           - label: "Legacy UID"
             name: "legacy_uid"
-            widget: "string"
-
+            widget: "string"s
+          - label: "Highlights Text"
+            name: "highlights_text"
+            widget: string
+          - label: "Related Content"
+            name: "related_content"
+            widget: markdown
   - category: Settings
     label: Menu
     name: menu
