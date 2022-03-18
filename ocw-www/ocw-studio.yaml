@@ -79,7 +79,7 @@ collections:
   - category: Content
     folder: content/collections
     label: "Course Collections"
-    name: course-collection
+    name: "course-collection"
     fields:
       - label: "Description"
         name: "description"
@@ -99,8 +99,8 @@ collections:
         name: featured-courses
         widget: website-collection
 
-      - label: Course Collections
-        name: collections
+      - label: Course Lists
+        name: courselists
         widget: relation
         multiple: true
         collection: course-lists
