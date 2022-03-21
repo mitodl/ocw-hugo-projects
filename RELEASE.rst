@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.16.0
+Version 0.16.0 (Released March 21, 2022)
 --------------
 
 - config for course list, collection
