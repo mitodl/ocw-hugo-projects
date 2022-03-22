@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.16.1
+--------------
+
+- add yaml linting and formatting setup
+- fix a typo in the www config
+
 Version 0.16.0 (Released March 21, 2022)
 --------------
 
