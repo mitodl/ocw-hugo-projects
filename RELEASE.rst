@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.16.1
+Version 0.16.1 (Released March 23, 2022)
 --------------
 
 - add yaml linting and formatting setup
