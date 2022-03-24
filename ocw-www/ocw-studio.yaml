@@ -95,9 +95,13 @@ collections:
           filter_type: "equals"
           value: "Image"
 
-      - label: Featured Courses
+      - label: Featured Courses List
         name: featured-courses
-        widget: website-collection
+        widget: relation
+        multiple: false
+        collection: course-lists
+        display_field: title
+        sortable: false
 
       - label: Course Lists
         name: courselists
