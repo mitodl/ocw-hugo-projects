@@ -95,7 +95,7 @@ collections:
           filter_type: "equals"
           value: "Image"
 
-      - label: Featured Course List
+      - label: Featured Courses List
         name: featured-courses
         widget: relation
         multiple: false
