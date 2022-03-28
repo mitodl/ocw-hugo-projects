@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.16.2
+Version 0.16.2 (Released March 28, 2022)
 --------------
 
 - For course collections, change featured courses to a featured course list (#149)
