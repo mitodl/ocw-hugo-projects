@@ -90,7 +90,9 @@ collections:
           - page
         embed:
           - resource
-        help: The body of the resource page, displayed below the page title but above the resource metadata / embed / download button
+        help: >
+          The body of the resource page, displayed below the page title 
+          but above the resource metadata / embed / download button
       - label: Resource Type
         name: resourcetype
         required: true
