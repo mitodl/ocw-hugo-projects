@@ -82,6 +82,14 @@ collections:
         name: description
         widget: markdown
         minimal: true
+      - label: Body
+        name: body
+        widget: markdown
+        link:
+          - resource
+          - page
+        embed:
+          - resource
       - label: Resource Type
         name: resourcetype
         required: true
