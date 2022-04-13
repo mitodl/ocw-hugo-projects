@@ -91,8 +91,8 @@ collections:
         embed:
           - resource
         help: >
-          The body of the resource page, displayed below the page title
-          but above the resource metadata / embed / download button
+          The body of the resource page, displayed below
+          the page title and above the resource
       - label: Resource Type
         name: resourcetype
         required: true
