@@ -82,6 +82,17 @@ collections:
         name: description
         widget: markdown
         minimal: true
+      - label: Body
+        name: body
+        widget: markdown
+        link:
+          - resource
+          - page
+        embed:
+          - resource
+        help: >
+          The body of the resource page, displayed below
+          the page title and above the resource
       - label: Resource Type
         name: resourcetype
         required: true
