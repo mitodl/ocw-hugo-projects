@@ -78,6 +78,7 @@ collections:
         name: title
         required: true
         widget: string
+        help: If this is a video, this will be published as the YouTube title
       - label: Description
         name: description
         widget: markdown
@@ -192,10 +193,14 @@ collections:
         name: video_metadata
         widget: object
         condition: { field: resourcetype, equals: Video }
+        help: These fields will be published to YouTube
         fields:
           - label: Youtube ID
             name: youtube_id
             widget: string
+          - label: Youtube Description
+            name: youtube_description
+            widget: text
           - label: Youtube Speakers
             name: video_speakers
             widget: string
@@ -206,6 +211,9 @@ collections:
         name: video_files
         widget: object
         condition: { field: resourcetype, equals: Video }
+        help: >
+          Internal YouTube fields, don't edit
+          unless you know what you're doing
         fields:
           - label: Video Thumbnail URL
             name: video_thumbnail_file
