@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.17.0
+Version 0.17.0 (Released April 15, 2022)
 --------------
 
 - add youtube description field and help text (#157)
