@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.17.0
+--------------
+
+- add youtube description field and help text (#157)
+- add body text editing to resources (#155)
+- promo image required
+
 Version 0.16.2 (Released March 28, 2022)
 --------------
 
