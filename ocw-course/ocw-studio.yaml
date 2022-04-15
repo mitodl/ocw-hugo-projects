@@ -200,7 +200,9 @@ collections:
         name: video_files
         widget: object
         condition: { field: resourcetype, equals: Video }
-        help: These fields will be published to YouTube
+        help: >
+          Internal YouTube fields, don't edit
+          unless you know what you're doing
         fields:
           - label: Video Thumbnail URL
             name: video_thumbnail_file
