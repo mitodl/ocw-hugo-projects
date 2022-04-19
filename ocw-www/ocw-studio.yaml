@@ -23,7 +23,7 @@ collections:
         link:
           - course_collections
           - resource_collections
-        embed: 
+        embed:
           - resource
 
   - category: Content
