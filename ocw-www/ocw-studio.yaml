@@ -23,6 +23,8 @@ collections:
         link:
           - course_collections
           - resource_collections
+        embed: 
+          - resource
 
   - category: Content
     folder: content/resource_collections
