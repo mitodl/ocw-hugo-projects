@@ -180,9 +180,9 @@ collections:
         default: true
 
   - category: Content
-    folder: content/testimonials
-    label: Testimonial
-    name: testimonials
+    folder: content/stories
+    label: Stories
+    name: stories
     fields:
       - label: Draft
         name: draft
