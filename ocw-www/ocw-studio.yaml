@@ -23,6 +23,8 @@ collections:
         link:
           - course_collections
           - resource_collections
+          - resource
+          - page
         embed:
           - resource
 
@@ -249,8 +251,8 @@ collections:
         name: description
         widget: markdown
         minimal: true
-      - label: File Type
-        name: filetype
+      - label: Resource Type
+        name: resourcetype
         required: true
         widget: select
         options:
