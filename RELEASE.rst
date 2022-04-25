@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.17.1
+Version 0.17.1 (Released April 25, 2022)
 --------------
 
 - renamed testimonials to stories
