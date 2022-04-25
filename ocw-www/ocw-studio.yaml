@@ -3,8 +3,8 @@ root-url-path: ""
 collections:
   - category: Content
     folder: content/pages
-    label: Page
-    name: pages
+    label: Pages
+    name: page
     fields:
       - label: Draft
         name: draft
@@ -95,7 +95,7 @@ collections:
         display_field: title
         multiple: false
         filter:
-          field: "filetype"
+          field: "resourcetype"
           filter_type: "equals"
           value: "Image"
 
@@ -153,7 +153,7 @@ collections:
         min: 1
         max: 1
         filter:
-          field: "filetype"
+          field: "resourcetype"
           filter_type: "equals"
           value: "Image"
 
@@ -220,7 +220,7 @@ collections:
         min: 1
         max: 1
         filter:
-          field: "filetype"
+          field: "resourcetype"
           filter_type: "equals"
           value: "Image"
 
@@ -268,7 +268,7 @@ collections:
       - label: Image Metadata
         name: metadata
         widget: object
-        condition: { field: filetype, equals: Image }
+        condition: { field: resourcetype, equals: Image }
         fields:
           - label: ALT text
             name: image_alt
