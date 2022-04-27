@@ -23,6 +23,7 @@ collections:
         link:
           - resource
           - page
+          - video_gallery
         embed:
           - resource
 
