@@ -732,6 +732,12 @@ collections:
           - label: "Legacy UID"
             name: "legacy_uid"
             widget: "string"
+          - label: "Highlights Text"
+            name: "highlights_text"
+            widget: string
+          - label: "Related Content"
+            name: "related_content"
+            widget: markdown
 
   - category: Settings
     label: Menu
