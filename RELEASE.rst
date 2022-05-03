@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.19.0
+--------------
+
+- added video gallery to studio config
+
 Version 0.18.0 (Released May 03, 2022)
 --------------
 
