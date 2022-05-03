@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.18.0
+Version 0.18.0 (Released May 03, 2022)
 --------------
 
 - use markdown widget on captions and credits (#163)
