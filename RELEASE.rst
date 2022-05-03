@@ -1,6 +1,15 @@
 Release Notes
 =============
 
+Version 0.18.0 (Released May 03, 2022)
+--------------
+
+- use markdown widget on captions and credits (#163)
+- fix: pages to page and filetype to resource type
+- fix: resource and page added in link and filetype changed to resourcetype
+- fix: lint
+- feat: embed resource added for ocw www
+
 Version 0.17.1 (Released April 25, 2022)
 --------------
 
