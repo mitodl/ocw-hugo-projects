@@ -1,0 +1,57 @@
+---
+collections:
+  - category: Content
+    label: Field
+    name: field
+    files:
+      - file: content/field
+        label: Field
+        name: field_home
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: true
+          - label: Description
+            name: description
+            widget: markdown
+          - collection: resource
+            display_field: title
+            filter:
+              field: filetype
+              filter_type: equals
+              value: Image
+            label: "Cover Image"
+            multiple: false
+            name: cover-image
+            widget: relation
+          - collection: subfield
+            display_field: title
+            label: "Featured Courses List"
+            multiple: false
+            name: featured-courses
+            sortable: false
+            widget: relation
+          - collection: subfield
+            display_field: title
+            label: Subfields
+            multiple: true
+            name: subfields
+            sortable: true
+            widget: relation
+  - category: Content
+    folder: content/subfields
+    label: Subfields
+    name: subfield
+    fields:
+      - label: Title
+        name: title
+        required: true
+        widget: string
+      - label: Description
+        name: description
+        widget: markdown
+      - label: Courses
+        name: courses
+        widget: website-collection
+root-url-path: ""
