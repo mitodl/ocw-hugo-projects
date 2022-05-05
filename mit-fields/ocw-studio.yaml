@@ -27,7 +27,7 @@ collections:
             widget: relation
           - collection: subfield
             display_field: title
-            label: "Featured Courses List"
+            label: "Featured Courses"
             multiple: false
             name: featured-courses
             sortable: false
