@@ -1,0 +1,28 @@
+---
+baseUrl: "/"
+enableRobotsTXT: true
+languageCode: en-us
+relativeURLs: false
+title: MIT Fields
+caches:
+  getjson:
+    maxAge: 5m
+mediaTypes:
+  application/json:
+    suffixes:
+      - json
+outputs:
+  page:
+    - HTML
+    - JSON
+theme: ["base-theme", "fields"]
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - GTM_ACCOUNT_ID
+      - RESOURCE_BASE_URL
+      - STATIC_API_BASE_URL
+      - OCW_STUDIO_BASE_URL
+      - OCW_IMPORT_STARTER_SLUG
+      - COURSE_BASE_URL
