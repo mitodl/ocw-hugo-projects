@@ -18,7 +18,7 @@ collections:
           - collection: resource
             display_field: title
             filter:
-              field: filetype
+              field: resourcetype
               filter_type: equals
               value: Image
             label: "Cover Image"
@@ -68,7 +68,7 @@ collections:
         widget: markdown
         minimal: true
       - label: Resource Type
-        name: headless
+        name: resourcetype
         widget: hidden
         default: Image
       - label: Mime Type
