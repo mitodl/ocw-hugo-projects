@@ -26,3 +26,4 @@ security:
       - OCW_STUDIO_BASE_URL
       - OCW_IMPORT_STARTER_SLUG
       - COURSE_BASE_URL
+      - SITEMAP_DOMAIN
