@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.19.1
+Version 0.19.1 (Released May 06, 2022)
 --------------
 
 - add mit-fields starter (#168)
