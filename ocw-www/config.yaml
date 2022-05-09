@@ -12,14 +12,22 @@ mediaTypes:
     suffixes:
       - json
 outputs:
+  home:
+    - sitemapIndex
   page:
     - HTML
     - JSON
+outputFormats:
+  sitemapIndex:
+    baseName: sitemap_index
+    isPlainText: true
+    mediaType: "application/xml"
 theme: ["base-theme", "www"]
 security:
   funcs:
     getenv:
       - ^HUGO_
+      - API_BEARER_TOKEN
       - GTM_ACCOUNT_ID
       - RESOURCE_BASE_URL
       - STATIC_API_BASE_URL
