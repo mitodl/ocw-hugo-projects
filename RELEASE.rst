@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.20.0 (Released May 10, 2022)
+--------------
+
+- make legacy uid hidden (#170)
+
 Version 0.19.1 (Released May 06, 2022)
 --------------
 
