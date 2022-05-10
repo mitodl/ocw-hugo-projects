@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.20.1
+Version 0.20.1 (Released May 10, 2022)
 --------------
 
 - add SITEMAP_DOMAIN to the list of allowed env variables (#171)
