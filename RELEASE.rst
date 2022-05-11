@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.20.2
+--------------
+
+- add sitemap_index outputFormat to ocw-www (#176)
+
 Version 0.20.1 (Released May 10, 2022)
 --------------
 
