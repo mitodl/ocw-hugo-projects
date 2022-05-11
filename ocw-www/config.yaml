@@ -13,13 +13,13 @@ mediaTypes:
       - json
 outputs:
   home:
-    - sitemapIndex
+    - wwwSitemap
   page:
     - HTML
     - JSON
 outputFormats:
-  sitemapIndex:
-    baseName: sitemap_index
+  wwwSitemap:
+    baseName: sitemap-www
     isPlainText: true
     mediaType: "application/xml"
 theme: ["base-theme", "www"]
