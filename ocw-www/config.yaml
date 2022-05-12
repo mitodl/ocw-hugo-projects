@@ -13,6 +13,8 @@ mediaTypes:
       - json
 outputs:
   home:
+    - HTML
+    - JSON
     - wwwSitemap
   page:
     - HTML
