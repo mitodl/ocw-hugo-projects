@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.20.3
+--------------
+
+- explicitly add back default output formats for the ocw-www home page (#179)
+
 Version 0.20.2 (Released May 11, 2022)
 --------------
 
