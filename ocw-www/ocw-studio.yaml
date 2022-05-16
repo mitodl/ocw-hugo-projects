@@ -20,6 +20,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
+        minimal: false
         link:
           - course_collections
           - resource_collections
@@ -176,7 +177,6 @@ collections:
       - label: Body
         name: body
         widget: markdown
-        minimal: true
 
       - label: Headless
         name: headless
@@ -231,6 +231,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
+        minimal: false
 
   - category: Content
     folder: content/resources
@@ -250,7 +251,6 @@ collections:
       - label: Description
         name: description
         widget: markdown
-        minimal: true
       - label: Resource Type
         name: resourcetype
         required: true

@@ -15,7 +15,6 @@ collections:
           - label: Description
             name: description
             widget: markdown
-            minimal: true
           - collection: resource
             display_field: title
             filter:
@@ -67,7 +66,6 @@ collections:
       - label: Description
         name: description
         widget: markdown
-        minimal: true
       - label: Resource Type
         name: resourcetype
         widget: hidden
@@ -102,9 +100,7 @@ collections:
           - label: Caption
             name: caption
             widget: markdown
-            minimal: true
           - label: Credit
             name: credit
             widget: markdown
-            minimal: true
 root-url-path: fields
