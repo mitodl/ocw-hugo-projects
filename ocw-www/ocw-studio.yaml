@@ -249,8 +249,12 @@ collections:
         required: true
         widget: string
       - label: Description
-        name: description
+        name: body
         widget: markdown
+        minimal: true
+        link:
+          - resource
+          - page
       - label: Resource Type
         name: resourcetype
         required: true
