@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.21.0
+--------------
+
+- update configs for minimal markdown editor by default (#182)
+
 Version 0.20.3 (Released May 12, 2022)
 --------------
 
