@@ -20,6 +20,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
+        minimal: false
         link:
           - resource
           - page
@@ -46,6 +47,7 @@ collections:
       - label: Body
         name: body
         widget: markdown
+        minimal: false
         link:
           - resource
           - page
@@ -83,10 +85,10 @@ collections:
       - label: Description
         name: description
         widget: markdown
-        minimal: true
       - label: Body
         name: body
         widget: markdown
+        minimal: false
         link:
           - resource
           - page
@@ -186,11 +188,9 @@ collections:
           - label: Caption
             name: caption
             widget: markdown
-            minimal: true
           - label: Credit
             name: credit
             widget: markdown
-            minimal: true
       # show the sections below only if the type of resource is "Video"
       - label: Video Metadata
         name: video_metadata
