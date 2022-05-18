@@ -1,5 +1,6 @@
 ---
 root-url-path: courses
+# yamllint disable-line rule:line-length
 site-url-format: "[sitemetadata:primary_course_number]-[sitemetadata:course_title]-[sitemetadata:term]-[sitemetadata:year]"
 collections:
   - category: Content
