@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.21.1
+Version 0.21.1 (Released May 19, 2022)
 --------------
 
 - URL pattern for ocw-studio.yaml (#180)
