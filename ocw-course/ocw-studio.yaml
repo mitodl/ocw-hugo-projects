@@ -11,6 +11,7 @@ collections:
         required: true
         widget: boolean
         help: Enable this setting to prevent publishing in production
+        default: false
 
       - label: Title
         name: title
@@ -37,6 +38,7 @@ collections:
         required: true
         widget: boolean
         help: Enable this setting to prevent publishing in production
+        default: false
 
       - label: Title
         name: title
