@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.22.0
+Version 0.22.0 (Released June 01, 2022)
 --------------
 
 - added default value for resource (#174)
