@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.22.1
+Version 0.22.1 (Released June 02, 2022)
 --------------
 
 - for course level resources, store the description in the markdown body, restrict the markdown editor to the minimal configuration but allow linking of other resources or pages (#187)
