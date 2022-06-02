@@ -88,20 +88,12 @@ collections:
         widget: string
         help: If this is a video, this will be published as the YouTube title
       - label: Description
-        name: description
-        widget: markdown
-      - label: Body
         name: body
         widget: markdown
-        minimal: false
+        minimal: true
         link:
           - resource
           - page
-        embed:
-          - resource
-        help: >
-          The body of the resource page, displayed below
-          the page title and above the resource
       - label: Resource Type
         name: resourcetype
         required: true
