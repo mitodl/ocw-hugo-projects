@@ -26,6 +26,11 @@ collections:
         help: The plain text description of this page as seen by search engines
         required: true
 
+      - label: Metadata Keywords
+        name: metadata_keywords
+        widget: string
+        help: The search keywords for this page
+
       - label: Body
         name: body
         widget: markdown
