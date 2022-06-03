@@ -20,7 +20,7 @@ collections:
       - label: Metadata Description
         name: metadata_description
         widget: string
-        help: The plain text description of this page as indexed by search engines
+        help: The plain text description of this page as seen by search engines
         required: true
 
       - label: Body
