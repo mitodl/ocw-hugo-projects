@@ -17,6 +17,12 @@ collections:
         widget: string
         required: true
 
+      - label: Description
+        name: description
+        widget: string
+        help: The plain text description of this page as seen by search engines
+        required: true
+
       - label: Body
         name: body
         widget: markdown
