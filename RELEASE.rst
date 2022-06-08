@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.22.2
+--------------
+
+- plain text description fields should be text and not string (#192)
+- add metadata_description and metadata_keywords fields to pages (#190)
+
 Version 0.22.1 (Released June 02, 2022)
 --------------
 
