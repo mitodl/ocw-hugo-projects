@@ -19,7 +19,7 @@ collections:
 
       - label: Description
         name: description
-        widget: string
+        widget: text
         help: The plain text description of this page as seen by search engines
         required: true
 
