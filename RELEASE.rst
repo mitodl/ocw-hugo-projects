@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.22.2
+Version 0.22.2 (Released June 09, 2022)
 --------------
 
 - plain text description fields should be text and not string (#192)
