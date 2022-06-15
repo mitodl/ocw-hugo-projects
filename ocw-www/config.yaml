@@ -37,3 +37,5 @@ security:
       - OCW_IMPORT_STARTER_SLUG
       - COURSE_BASE_URL
       - SITEMAP_DOMAIN
+params:
+  offline: false

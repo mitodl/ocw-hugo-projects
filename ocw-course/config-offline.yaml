@@ -2,9 +2,9 @@
 baseUrl: "/"
 enableRobotsTXT: true
 languageCode: en-us
-relativeURLs: false
+relativeURLs: true
 title: MIT OpenCourseWare
-theme: ["course", "base-theme"]
+theme: ["base-theme", "course"]
 ignoreErrors: ["error-remote-getjson"]
 outputFormats:
   coursedata:
@@ -41,9 +41,5 @@ security:
 markup:
   highlight:
     style: colorful
-taxonomies:
-  learning_resource_type: learning_resource_types
-permalinks:
-  learning_resource_types: "/resources/:slug/"
 params:
-  offline: false
+  offline: true
