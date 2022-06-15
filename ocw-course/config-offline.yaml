@@ -2,7 +2,7 @@
 baseUrl: "/"
 enableRobotsTXT: true
 languageCode: en-us
-relativeURLs: false
+relativeURLs: true
 title: MIT OpenCourseWare
 theme: ["base-theme", "course"]
 ignoreErrors: ["error-remote-getjson"]
@@ -42,4 +42,4 @@ markup:
   highlight:
     style: colorful
 params:
-  offline: false
+  offline: true
