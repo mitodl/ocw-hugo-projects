@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.23.0
+--------------
+
+- fix: we did not add a metadata_keywords field to pages (#195)
+
 Version 0.22.2 (Released June 09, 2022)
 --------------
 
