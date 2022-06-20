@@ -34,14 +34,14 @@ collections:
           - resource
           - page
           - video_gallery
-          - resource_bundle
+          - resource_bundles
         embed:
           - resource
 
   - category: Content
-    folder: content/resource_bundle
-    label: "Resource Bundle"
-    name: "resource_bundle"
+    folder: content/resource_bundles
+    label: "Resource Bundles"
+    name: "resource_bundles"
     fields:
       - label: Draft
         name: draft
