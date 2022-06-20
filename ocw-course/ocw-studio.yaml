@@ -41,7 +41,7 @@ collections:
   - category: Content
     folder: content/resource_bundles
     label: "Resource Bundles"
-    name: "resource_bundles"
+    name: "resource_bundle"
     fields:
       - label: Draft
         name: draft
