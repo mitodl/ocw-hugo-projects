@@ -24,7 +24,7 @@ outputFormats:
     baseName: sitemap-www
     isPlainText: true
     mediaType: "application/xml"
-theme: ["base-theme", "www"]
+theme: ["www", "base-theme"]
 security:
   funcs:
     getenv:
