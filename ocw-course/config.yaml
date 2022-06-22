@@ -41,3 +41,5 @@ security:
 markup:
   highlight:
     style: colorful
+taxonomies:
+  learning_resource_type: learning_resource_types
