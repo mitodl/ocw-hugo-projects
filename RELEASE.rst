@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.24.0
+--------------
+
+- feat: learning_resource_type taxonomy added (#197)
+
 Version 0.23.0 (Released June 21, 2022)
 --------------
 
