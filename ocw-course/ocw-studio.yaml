@@ -39,9 +39,9 @@ collections:
           - resource
 
   - category: Content
-    folder: content/resource_bundles
-    label: "Resource Bundles"
-    name: "resource_bundle"
+    folder: content/lists
+    label: "Resource lists"
+    name: "resource-lists"
     fields:
       - label: Draft
         name: draft
