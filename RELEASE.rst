@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.25.0
+--------------
+
+- permalink added for learning_resource_types (#203)
+
 Version 0.24.0 (Released June 22, 2022)
 --------------
 
