@@ -41,7 +41,7 @@ collections:
   - category: Content
     folder: content/lists
     label: "Resource lists"
-    name: "resource-lists"
+    name: "resource-list"
     fields:
       - label: Draft
         name: draft
