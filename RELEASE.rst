@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.25.1
+--------------
+
+- Added config for resource bundle (#198)
+
 Version 0.25.0 (Released June 27, 2022)
 --------------
 
