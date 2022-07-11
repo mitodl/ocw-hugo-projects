@@ -34,6 +34,7 @@ collections:
           - resource
           - page
           - video_gallery
+          - resource-list
         embed:
           - resource
 
