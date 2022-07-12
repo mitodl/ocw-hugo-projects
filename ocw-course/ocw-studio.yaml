@@ -34,8 +34,38 @@ collections:
           - resource
           - page
           - video_gallery
+          - resource-list
         embed:
           - resource
+
+  - category: Content
+    folder: content/lists
+    label: "Resource lists"
+    name: "resource-list"
+    fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help: Enable this setting to prevent publishing in production
+
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
+      - label: Description
+        name: description
+        widget: markdown
+
+      - name: resources
+        label: Resources
+        widget: relation
+        multiple: true
+        collection: resource
+        display_field: title
+        cross_site: false
+        sortable: true
 
   - category: Content
     folder: content/video_galleries
