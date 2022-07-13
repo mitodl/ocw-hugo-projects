@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.26.0
+--------------
+
+- Added resource list to to course config which was reverted in PR #206 (#208)
+
 Version 0.25.2 (Released June 30, 2022)
 --------------
 
