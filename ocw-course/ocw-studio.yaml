@@ -43,7 +43,6 @@ collections:
             resourcetype: "Video"
             embeddable: true
             singleColumn: false
-            embeddable: true
           - title: "Document"
             id: "documents"
             contentType: "resource"
@@ -87,7 +86,7 @@ collections:
             resourcetype: "Video"
             embeddable: true
             singleColumn: false
-            
+
 
   - category: Content
     folder: content/lists
@@ -152,7 +151,6 @@ collections:
             resourcetype: "Video"
             embeddable: true
             singleColumn: false
-            embeddable: true
           - title: "Document"
             id: "documents"
             contentType: "resource"
@@ -231,7 +229,6 @@ collections:
             resourcetype: "Video"
             embeddable: true
             singleColumn: false
-            embeddable: true
           - title: "Document"
             id: "documents"
             contentType: resource
