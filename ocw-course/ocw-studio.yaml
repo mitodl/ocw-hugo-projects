@@ -87,7 +87,6 @@ collections:
             embeddable: true
             singleColumn: false
 
-
   - category: Content
     folder: content/lists
     label: "Resource lists"
