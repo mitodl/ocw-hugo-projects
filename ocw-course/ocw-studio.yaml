@@ -31,12 +31,63 @@ collections:
         widget: markdown
         minimal: false
         link:
-          - resource
-          - page
-          - video_gallery
-          - resource-list
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
+            embeddable: true
+          - title: "Document"
+            id: "documents"
+            contentType: "resource"
+            resourcetype: "Document"
+            embeddable: false
+            singleColumn: true
+          - title: "Other"
+            id: "other"
+            contentType: "resource"
+            resourcetype: "Other"
+            embeddable: false
+            singleColumn: true
+          - title: "Pages"
+            id: "pages"
+            contentType: "page"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
+          - title: "Video Gallery"
+            id: "video_gallery"
+            contentType: "video_gallery"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
+          - title: "Resource List"
+            id: "resource-list"
+            contentType: "resource-list"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
         embed:
-          - resource
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
+            
 
   - category: Content
     folder: content/lists
@@ -89,10 +140,50 @@ collections:
         widget: markdown
         minimal: false
         link:
-          - resource
-          - page
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
+            embeddable: true
+          - title: "Document"
+            id: "documents"
+            contentType: "resource"
+            resourcetype: "Document"
+            embeddable: false
+            singleColumn: true
+          - title: "Other"
+            id: "other"
+            contentType: "resource"
+            resourcetype: "Other"
+            embeddable: false
+            singleColumn: true
+          - title: "Pages"
+            id: "pages"
+            contentType: "page"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
         embed:
-          - resource
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
 
       - label: Videos
         name: videos
@@ -128,8 +219,44 @@ collections:
         widget: markdown
         minimal: true
         link:
-          - resource
-          - page
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
+            embeddable: true
+          - title: "Document"
+            id: "documents"
+            contentType: resource
+            resourcetype: Document
+            embeddable: false
+            singleColumn: true
+          - title: "Other"
+            id: "other"
+            contentType: resource
+            resourcetype: Other
+            embeddable: false
+            singleColumn: true
+        embed:
+          - title: "Images"
+            id: "images"
+            contentType: resource
+            resourcetype: Image
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: resource
+            resourcetype: Video
+            embeddable: true
+            singleColumn: false
       - label: Resource Type
         name: resourcetype
         required: true
