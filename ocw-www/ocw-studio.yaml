@@ -28,13 +28,61 @@ collections:
         widget: markdown
         minimal: false
         link:
-          - course_collections
-          - resource_collections
-          - resource
-          - page
+          - title: "Course Collections"
+            id: "course-collection"
+            contentType: "course-collection"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
+          - title: "Resource Collections"
+            id: "resource_collections"
+            contentType: "resource_collections"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
+          - title: "Document"
+            id: "documents"
+            contentType: "resource"
+            resourcetype: "Document"
+            embeddable: false
+            singleColumn: true
+          - title: "Other"
+            id: "other"
+            contentType: "resource"
+            resourcetype: "Other"
+            embeddable: false
+            singleColumn: true
+          - title: "Pages"
+            id: "pages"
+            contentType: "page"
+            resourcetype: null
+            embeddable: false
+            singleColumn: true
         embed:
-          - resource
-
+          - title: "Images"
+            id: "images"
+            contentType: "resource"
+            resourcetype: "Image"
+            embeddable: true
+            singleColumn: false
+          - title: "Videos"
+            id: "videos"
+            contentType: "resource"
+            resourcetype: "Video"
+            embeddable: true
+            singleColumn: false
   - category: Content
     folder: content/resource_collections
     label: "Resource Collections"
