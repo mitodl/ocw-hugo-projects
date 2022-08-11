@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.27.0
+--------------
+
+- change order of theme inheritance (#202)
+
 Version 0.26.0 (Released July 14, 2022)
 --------------
 
