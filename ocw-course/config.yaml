@@ -2,7 +2,7 @@
 baseUrl: "/"
 enableRobotsTXT: true
 languageCode: en-us
-relativeURLs: false
+relativeURLs: true
 title: MIT OpenCourseWare
 theme: ["course", "base-theme"]
 ignoreErrors: ["error-remote-getjson"]
@@ -46,4 +46,4 @@ taxonomies:
 permalinks:
   learning_resource_types: "/resources/:slug/"
 params:
-  offline: false
+  offline: true
