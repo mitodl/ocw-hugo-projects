@@ -45,5 +45,3 @@ taxonomies:
   learning_resource_type: learning_resource_types
 permalinks:
   learning_resource_types: "/resources/:slug/"
-params:
-  offline: true
