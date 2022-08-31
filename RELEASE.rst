@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.28.0
+--------------
+
+- offline course site config (#213)
+
 Version 0.27.0 (Released August 11, 2022)
 --------------
 
