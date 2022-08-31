@@ -4,7 +4,7 @@ enableRobotsTXT: true
 languageCode: en-us
 relativeURLs: false
 title: MIT OpenCourseWare
-theme: ["course", "base-theme"]
+theme: ["course-v2", "base-theme"]
 ignoreErrors: ["error-remote-getjson"]
 outputFormats:
   coursedata:
