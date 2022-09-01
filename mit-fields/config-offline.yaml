@@ -2,7 +2,7 @@
 baseUrl: "/"
 enableRobotsTXT: true
 languageCode: en-us
-relativeURLs: false
+relativeURLs: true
 title: MIT Fields
 caches:
   getjson:
@@ -15,7 +15,7 @@ outputs:
   page:
     - HTML
     - JSON
-theme: ["fields", "base-theme"]
+theme: ["course-offline", "fields", "base-theme"]
 security:
   funcs:
     getenv:

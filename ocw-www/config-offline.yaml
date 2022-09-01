@@ -2,8 +2,8 @@
 baseUrl: "/"
 enableRobotsTXT: true
 languageCode: en-us
-relativeURLs: false
-title: MIT Fields
+relativeURLs: true
+title: MIT OpenCourseWare
 caches:
   getjson:
     maxAge: 5m
@@ -12,10 +12,19 @@ mediaTypes:
     suffixes:
       - json
 outputs:
+  home:
+    - HTML
+    - JSON
+    - wwwSitemap
   page:
     - HTML
     - JSON
-theme: ["fields", "base-theme"]
+outputFormats:
+  wwwSitemap:
+    baseName: sitemap-www
+    isPlainText: true
+    mediaType: "application/xml"
+theme: ["course-offline", "www", "base-theme"]
 security:
   funcs:
     getenv:
