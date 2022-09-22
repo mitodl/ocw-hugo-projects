@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.29.0
+Version 0.29.0 (Released September 22, 2022)
 --------------
 
 - Pt/interactive assessment learning resource type (#215)
