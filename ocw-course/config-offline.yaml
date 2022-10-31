@@ -38,6 +38,7 @@ security:
       - OCW_IMPORT_STARTER_SLUG
       - COURSE_BASE_URL
       - SITEMAP_DOMAIN
+      - SENTRY_DSN
 markup:
   highlight:
     style: colorful
