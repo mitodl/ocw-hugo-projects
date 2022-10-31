@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.30.0
+--------------
+
+- sentry dsn env added (#218)
+
 Version 0.29.0 (Released September 22, 2022)
 --------------
 
