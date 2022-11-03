@@ -49,7 +49,7 @@ markup:
 mediaTypes:
   application/zip:
     suffixes:
-    - zip
+      - zip
 taxonomies:
   learning_resource_type: learning_resource_types
 permalinks:
