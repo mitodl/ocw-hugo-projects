@@ -354,6 +354,7 @@ collections:
               - "Undergraduate"
               - "Graduate"
               - "Non Credit"
+              - "High School"
             widget: "select"
           - label: "Term"
             name: "term"
