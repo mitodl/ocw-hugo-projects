@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.30.1
+Version 0.30.1 (Released November 03, 2022)
 --------------
 
 - Adding High School as a level for courses (#221)
