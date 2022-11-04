@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.30.2
+--------------
+
+- whitelist webpack_port (#222)
+
 Version 0.30.1 (Released November 03, 2022)
 --------------
 
