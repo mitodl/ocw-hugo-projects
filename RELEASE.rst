@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.31.1
+--------------
+
+- add OCW_IMPORT_STARTER_SLUG env variable to allow list (#227)
+
 Version 0.31.0 (Released November 07, 2022)
 --------------
 
