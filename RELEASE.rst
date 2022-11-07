@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.31.0
+--------------
+
+- allow HEAD verb and download of zip files (#224)
+
 Version 0.30.2 (Released November 04, 2022)
 --------------
 
