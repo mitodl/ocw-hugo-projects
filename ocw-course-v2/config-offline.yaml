@@ -1,5 +1,5 @@
 ---
-baseUrl: "/"
+baseUrl: "http://localhost:3000/"
 enableRobotsTXT: true
 languageCode: en-us
 relativeURLs: true
@@ -37,6 +37,7 @@ security:
       - STATIC_API_BASE_URL
       - OCW_STUDIO_BASE_URL
       - OCW_IMPORT_STARTER_SLUG
+      - OCW_COURSE_STARTER_SLUG
       - COURSE_BASE_URL
       - SITEMAP_DOMAIN
       - SENTRY_DSN
