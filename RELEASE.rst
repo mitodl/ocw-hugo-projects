@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.32.0
+--------------
+
+- whitelist webpack_host env var (#229)
+
 Version 0.31.1 (Released November 07, 2022)
 --------------
 
