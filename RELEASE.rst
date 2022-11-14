@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.32.1
+--------------
+
+- set default baseUrl in course-v2 back to / (#230)
+
 Version 0.32.0 (Released November 14, 2022)
 --------------
 
