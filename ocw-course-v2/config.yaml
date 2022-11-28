@@ -48,6 +48,9 @@ security:
 markup:
   highlight:
     style: colorful
+  goldmark:
+    renderer:
+      unsafe: true
 mediaTypes:
   application/zip:
     suffixes:
