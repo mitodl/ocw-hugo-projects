@@ -30,6 +30,9 @@ collections:
         name: body
         widget: markdown
         minimal: false
+        allowed_html:
+          - sub
+          - sup
         link:
           - resource
           - page
