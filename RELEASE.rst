@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.32.2
+--------------
+
+- Cc/subsup (#234)
+
 Version 0.32.1 (Released November 14, 2022)
 --------------
 
