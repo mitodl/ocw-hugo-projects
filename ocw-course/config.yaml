@@ -42,9 +42,19 @@ security:
       - COURSE_BASE_URL
       - SITEMAP_DOMAIN
       - SENTRY_DSN
+  http:
+    methods:
+      - (?i)GET|HEAD
 markup:
   highlight:
     style: colorful
+  goldmark:
+    renderer:
+      unsafe: true
+mediaTypes:
+  application/zip:
+    suffixes:
+      - zip
 taxonomies:
   learning_resource_type: learning_resource_types
 permalinks:

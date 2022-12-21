@@ -30,6 +30,9 @@ collections:
         name: body
         widget: markdown
         minimal: false
+        allowed_html:
+          - sub
+          - sup
         link:
           - resource
           - page
@@ -163,7 +166,6 @@ collections:
           - "Exams with Solutions"
           - "Image Gallery"
           - "Instructor Insights"
-          - "Interactive Assessments"
           - Labs
           - "Lecture Audio"
           - "Lecture Notes"
@@ -385,7 +387,6 @@ collections:
               - "Exams with Solutions"
               - "Image Gallery"
               - "Instructor Insights"
-              - "Interactive Assessments"
               - Labs
               - "Lecture Audio"
               - "Lecture Notes"
