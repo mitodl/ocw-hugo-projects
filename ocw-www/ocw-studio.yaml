@@ -126,6 +126,7 @@ collections:
     folder: content/promos
     label: Promo
     name: promos
+    isSortable: true
     fields:
       - label: Draft
         name: draft
