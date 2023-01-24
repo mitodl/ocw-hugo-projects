@@ -332,3 +332,20 @@ collections:
         label: Navigation Menu
         fields:
           - { "label": "Menu", "name": "mainmenu", "widget": "menu" }
+  
+  - category: Settings
+    label: Homepage
+    name: homepage
+    files:
+      - file: data/homepage.yaml
+        name: homepage_settings
+        label: Homepage Settings
+        fields:
+          - label: Featured Promos
+            name: featured_promos
+            widget: menu
+            collection: promos
+            display_field: title
+            multiple: true
+            sortable: true
+
