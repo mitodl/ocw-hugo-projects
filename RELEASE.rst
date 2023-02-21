@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.33.0 (Released February 21, 2023)
+--------------
+
+- Added homepage settings in ocw-www studio config (#242)
+
 Version 0.32.2 (Released December 02, 2022)
 --------------
 
