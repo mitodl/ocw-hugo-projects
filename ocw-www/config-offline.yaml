@@ -14,16 +14,6 @@ mediaTypes:
 outputs:
   home:
     - HTML
-    - JSON
-    - wwwSitemap
-  page:
-    - HTML
-    - JSON
-outputFormats:
-  wwwSitemap:
-    baseName: sitemap-www
-    isPlainText: true
-    mediaType: "application/xml"
 theme: ["base-offline", "www-offline", "base-theme"]
 uglyurls: true
 disableKinds:
