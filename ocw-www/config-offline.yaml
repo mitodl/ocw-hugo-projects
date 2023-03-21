@@ -17,7 +17,12 @@ outputs:
 theme: ["base-offline", "www-offline", "base-theme"]
 uglyurls: true
 disableKinds:
-  - instructors
+  - section
+  - taxonomy
+  - taxonomyTerm
+  - RSS
+  - sitemap
+  - 404
 security:
   funcs:
     getenv:
