@@ -1,6 +1,14 @@
 Release Notes
 =============
 
+Version 0.34.0
+--------------
+
+- ocw-www offline config (#246)
+- revert ocw-course-v3 (#245)
+- refactor: old course config deletion (#240)
+- add ocw-course-v3 project (#244)
+
 Version 0.33.0 (Released February 21, 2023)
 --------------
 
