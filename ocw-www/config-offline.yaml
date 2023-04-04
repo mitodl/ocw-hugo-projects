@@ -1,0 +1,42 @@
+---
+baseUrl: "/"
+enableRobotsTXT: true
+languageCode: en-us
+relativeURLs: true
+title: MIT OpenCourseWare
+caches:
+  getjson:
+    maxAge: 5m
+mediaTypes:
+  application/json:
+    suffixes:
+      - json
+outputs:
+  home:
+    - HTML
+theme: ["base-offline", "www-offline", "base-theme"]
+uglyurls: true
+paginate: 20
+disableKinds:
+  - section
+  - taxonomy
+  - taxonomyTerm
+  - RSS
+  - sitemap
+  - 404
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - WEBPACK_HOST
+      - WEBPACK_PORT
+      - API_BEARER_TOKEN
+      - GTM_ACCOUNT_ID
+      - RESOURCE_BASE_URL
+      - STATIC_API_BASE_URL
+      - OCW_STUDIO_BASE_URL
+      - OCW_IMPORT_STARTER_SLUG
+      - OCW_COURSE_STARTER_SLUG
+      - COURSE_BASE_URL
+      - SITEMAP_DOMAIN
+      - SENTRY_DSN
