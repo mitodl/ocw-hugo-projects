@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.34.0
+Version 0.34.0 (Released April 05, 2023)
 --------------
 
 - ocw-www offline config (#246)
