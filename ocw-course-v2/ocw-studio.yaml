@@ -263,6 +263,9 @@ collections:
           - label: Video Transcript (PDF) URL
             name: video_transcript_file
             widget: string
+          - label: Archive URL
+            name: archive_url
+            widget: hidden
 
   - category: Settings
     name: metadata
