@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.35.0
+Version 0.35.0 (Released May 08, 2023)
 --------------
 
 - add archive_url as a hidden field in video_files (#248)
