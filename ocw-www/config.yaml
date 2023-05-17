@@ -41,3 +41,4 @@ security:
       - COURSE_BASE_URL
       - SITEMAP_DOMAIN
       - SENTRY_DSN
+      - NOINDEX
