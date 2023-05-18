@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.36.0
+--------------
+
+- Adding NOINDEX variable to offline configs (#251)
+- Adding NOINDEX environment variable (#250)
+
 Version 0.35.0 (Released May 08, 2023)
 --------------
 
