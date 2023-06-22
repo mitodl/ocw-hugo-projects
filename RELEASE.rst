@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.37.0
+Version 0.37.0 (Released June 22, 2023)
 --------------
 
 - feat: add file size field (#253)
