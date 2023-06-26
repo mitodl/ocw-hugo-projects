@@ -18,7 +18,6 @@ theme: ["base-offline", "www-offline", "base-theme"]
 uglyurls: true
 paginate: 20
 disableKinds:
-  - section
   - taxonomy
   - taxonomyTerm
   - RSS
