@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.38.0
+--------------
+
+- re-enable the section kind in www-offline (#255)
+
 Version 0.37.0 (Released June 22, 2023)
 --------------
 
