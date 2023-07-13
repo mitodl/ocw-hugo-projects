@@ -775,6 +775,11 @@ collections:
                 Education Policy: []
                 Educational Technology: []
                 Higher Education: []
+          - label: Hide Course Download
+            name: hide_download
+            required: true
+            widget: boolean
+            help: Enable this setting to hide the course download button
           - label: "Legacy UID"
             name: "legacy_uid"
             widget: "hidden"
