@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.39.0
+--------------
+
+- Adding hide download option to course metadata (#257)
+
 Version 0.38.0 (Released July 05, 2023)
 --------------
 
