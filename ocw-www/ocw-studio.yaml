@@ -92,9 +92,16 @@ collections:
     label: "Course Collections"
     name: "course-collection"
     fields:
+      - label: Draft
+        name: draft
+        required: true
+        widget: boolean
+        help: Enable this setting to prevent publishing in production
+
       - label: "Description"
         name: "description"
         widget: "markdown"
+
       - label: Cover Image
         name: cover-image
         widget: relation
