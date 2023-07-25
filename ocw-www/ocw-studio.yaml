@@ -98,6 +98,11 @@ collections:
         widget: boolean
         help: Enable this setting to prevent publishing in production
 
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
       - label: "Description"
         name: "description"
         widget: "markdown"
