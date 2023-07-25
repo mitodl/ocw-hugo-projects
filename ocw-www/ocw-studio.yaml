@@ -316,6 +316,11 @@ collections:
         widget: boolean
         help: Enable this setting to prevent publishing in production
 
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
       - label: First name
         name: first_name
         widget: string
