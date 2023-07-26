@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.40.0
+--------------
+
+- Add a draft setting for course collections (#259)
+
 Version 0.39.0 (Released July 13, 2023)
 --------------
 
