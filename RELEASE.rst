@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.40.1
+Version 0.40.1 (Released August 15, 2023)
 --------------
 
 - Recitation Notes Learning Resource Type (#262)
