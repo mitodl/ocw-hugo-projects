@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.41.0
+--------------
+
+- feat(config): add form widget for archive_url (#265)
+- chore: remove repo templates (#266)
+
 Version 0.40.1 (Released August 15, 2023)
 --------------
 
