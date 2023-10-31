@@ -258,7 +258,7 @@ collections:
         widget: object
         condition: { field: resourcetype, equals: Video }
         help: >
-          Internal YouTube fields, don't edit
+          Internal related resource URLs, don't edit
           unless you know what you're doing
         fields:
           - label: Video Thumbnail URL
@@ -270,9 +270,9 @@ collections:
           - label: Video Transcript (PDF) URL
             name: video_transcript_file
             widget: string
-          - label: Archive URL
+          - label: Internet Archive URL
             name: archive_url
-            widget: hidden
+            widget: string
 
   - category: Settings
     name: metadata
