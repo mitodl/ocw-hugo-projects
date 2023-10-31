@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.41.0
+Version 0.41.0 (Released October 31, 2023)
 --------------
 
 - feat(config): add form widget for archive_url (#265)
