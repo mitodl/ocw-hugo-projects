@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.41.1
+Version 0.41.1 (Released January 02, 2024)
 --------------
 
 - Add Russian language topic to metadata (#268)
