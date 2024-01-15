@@ -282,7 +282,7 @@ collections:
         name: file_size
         widget: hidden
         required: false
-        default: null
+        default:
         help: The size of the file resource in bytes
       - label: File
         name: file
@@ -292,7 +292,7 @@ collections:
       - label: Image Metadata
         name: metadata
         widget: object
-        condition: { field: resourcetype, equals: Image }
+        condition: {field: resourcetype, equals: Image}
         fields:
           - label: ALT text
             name: image_alt
@@ -354,7 +354,7 @@ collections:
         name: navmenu
         label: Navigation Menu
         fields:
-          - { "label": "Menu", "name": "mainmenu", "widget": "menu" }
+          - {"label": "Menu", "name": "mainmenu", "widget": "menu"}
 
   - category: Settings
     label: Homepage

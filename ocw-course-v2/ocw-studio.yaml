@@ -149,7 +149,7 @@ collections:
         name: file_size
         widget: hidden
         required: false
-        default: null
+        default:
         help: The size of the file resource in bytes
       - label: File
         name: file
@@ -223,7 +223,7 @@ collections:
       - label: Image Metadata
         name: image_metadata
         widget: object
-        condition: { field: resourcetype, equals: Image }
+        condition: {field: resourcetype, equals: Image}
         fields:
           - label: ALT text
             name: image-alt
@@ -238,7 +238,7 @@ collections:
       - label: Video Metadata
         name: video_metadata
         widget: object
-        condition: { field: resourcetype, equals: Video }
+        condition: {field: resourcetype, equals: Video}
         help: These fields will be published to YouTube
         fields:
           - label: Youtube ID
@@ -256,7 +256,7 @@ collections:
       - label: Video Files
         name: video_files
         widget: object
-        condition: { field: resourcetype, equals: Video }
+        condition: {field: resourcetype, equals: Video}
         help: >
           Internal related resource URLs, don't edit
           unless you know what you're doing
@@ -440,9 +440,9 @@ collections:
             name: topics
             widget: hierarchical-select
             levels:
-              - { label: "Topic", name: "topic" }
-              - { label: "Subtopic", name: "subtopic" }
-              - { label: "Speciality", name: "speciality" }
+              - {label: "Topic", name: "topic"}
+              - {label: "Subtopic", name: "subtopic"}
+              - {label: "Speciality", name: "speciality"}
             options_map:
               Business:
                 Accounting: []
@@ -795,4 +795,4 @@ collections:
         name: navmenu
         label: Navigation Menu
         fields:
-          - { "label": "Menu", "name": "leftnav", "widget": "menu" }
+          - {"label": "Menu", "name": "leftnav", "widget": "menu"}
