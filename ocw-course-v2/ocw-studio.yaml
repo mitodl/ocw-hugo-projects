@@ -110,6 +110,67 @@ collections:
           value: "Video"
 
   - category: Content
+    name: link
+    label: Links
+    folder: content/links
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
+      - label: Text
+        name: text
+        widget: string
+        required: true
+        help: Text to display as the link.
+
+      - label: URL
+        name: url
+        widget: string
+        required: true
+        help: The URL. For example, https://ocw.mit.edu/
+
+      - label: License
+        name: license
+        widget: select
+        options:
+          - label: CC-BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC-BY
+            value: https://creativecommons.org/licenses/by/4.0/
+          - label: CC-BY-NC
+            value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: public domain
+            value: https://creativecommons.org/publicdomain/zero/1.0/
+          - label: Externally Managed
+            value: externally-managed
+        default: externally-managed
+        required: true
+
+      - label: Is Image
+        name: is_image
+        widget: hidden
+        default: false
+        required: false
+        help: >
+          Wether this link is an embedded image.
+          Currently added to support legacy image
+          embeds.
+
+      - label: Is Defunct
+        name: is_defunct
+        widget: hidden
+        default: null
+        required: false
+
+      - label: Internet Archive Backup URL
+        name: backup_url
+        widget: hidden
+        default: null
+        required: false
+
+  - category: Content
     folder: content/resources
     label: Resources
     name: resource
