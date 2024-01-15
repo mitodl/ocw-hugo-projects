@@ -149,7 +149,7 @@ collections:
         name: file_size
         widget: hidden
         required: false
-        default:
+        default: null
         help: The size of the file resource in bytes
       - label: File
         name: file
