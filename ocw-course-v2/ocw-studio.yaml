@@ -126,7 +126,7 @@ collections:
         help: Text to display as the link.
 
       - label: URL
-        name: url
+        name: external_url
         widget: string
         required: true
         help: The URL. For example, https://ocw.mit.edu/
