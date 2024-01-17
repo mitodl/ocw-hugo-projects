@@ -13,9 +13,8 @@ repos:
     rev: v2.5.1
     hooks:
       - id: prettier
-        args:
-          - --write
-          - "**/*.yaml"
+        types_or:
+          - yaml
 
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.33.0
