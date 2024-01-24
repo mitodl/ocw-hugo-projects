@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.42.0
+--------------
+
+- chore(config) add pre-commit-config (#270)
+- Fix Non-Credit (#272)
+
 Version 0.41.1 (Released January 02, 2024)
 --------------
 
