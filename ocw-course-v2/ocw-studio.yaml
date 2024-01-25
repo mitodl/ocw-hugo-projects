@@ -157,8 +157,8 @@ collections:
           Currently added to support legacy image
           embeds.
 
-      - label: Is Defunct
-        name: is_defunct
+      - label: Is Broken
+        name: is_broken
         widget: hidden
         default: null
         required: false
