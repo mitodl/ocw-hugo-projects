@@ -126,17 +126,19 @@ collections:
         name: external_url
         widget: string
         required: true
-        help: The URL. For example, https://ocw.mit.edu/
+        help: >
+          The URL. For example, https://raise.mit.edu/
+          or https://owl.english.purdue.edu/owl/resource/747/01/
 
       - label: License
         name: license
         widget: select
         options:
-          - label: CC-BY-NC-SA
+          - label: CC BY-NC-SA
             value: https://creativecommons.org/licenses/by-nc-sa/4.0/
-          - label: CC-BY
+          - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
-          - label: CC-BY-NC
+          - label: CC BY-NC
             value: https://creativecommons.org/licenses/by-nc/4.0/
           - label: public domain
             value: https://creativecommons.org/publicdomain/zero/1.0/
@@ -160,12 +162,14 @@ collections:
         widget: hidden
         default: null
         required: false
+        help: Whether or not this link is broken.
 
       - label: Internet Archive Backup URL
         name: backup_url
         widget: hidden
         default: null
         required: false
+        help: URL to use when is_broken is true.
 
   - category: Content
     folder: content/resources
@@ -265,11 +269,11 @@ collections:
       - label: License
         name: license
         options:
-          - label: CC-BY-NC-SA
+          - label: CC BY-NC-SA
             value: https://creativecommons.org/licenses/by-nc-sa/4.0/
-          - label: CC-BY
+          - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
-          - label: CC-BY-NC
+          - label: CC BY-NC
             value: https://creativecommons.org/licenses/by-nc/4.0/
           - label: public domain
             value: https://creativecommons.org/publicdomain/zero/1.0/
