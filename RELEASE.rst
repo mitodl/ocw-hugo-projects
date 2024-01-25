@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.42.0
+Version 0.42.0 (Released January 25, 2024)
 --------------
 
 - chore(config) add pre-commit-config (#270)
