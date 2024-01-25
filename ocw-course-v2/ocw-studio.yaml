@@ -118,12 +118,9 @@ collections:
         name: title
         widget: string
         required: true
-
-      - label: Text
-        name: text
-        widget: string
-        required: true
-        help: Text to display as the link.
+        help: >
+          Text to display for the link.
+          You can change this later when adding links.
 
       - label: URL
         name: external_url
