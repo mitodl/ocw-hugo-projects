@@ -38,6 +38,7 @@ collections:
           - page
           - video_gallery
           - resource-list
+          - link
         embed:
           - resource
 
