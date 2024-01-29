@@ -38,7 +38,7 @@ collections:
           - page
           - video_gallery
           - resource-list
-          - link
+          - external-resource
         embed:
           - resource
 
@@ -109,68 +109,6 @@ collections:
           field: "resourcetype"
           filter_type: "equals"
           value: "Video"
-
-  - category: Content
-    name: link
-    label: Links
-    folder: content/links
-    fields:
-      - label: Title
-        name: title
-        widget: string
-        required: true
-        help: >
-          Text to display for the link.
-          You can change this later when adding links.
-
-      - label: URL
-        name: external_url
-        widget: string
-        required: true
-        help: >
-          The URL. For example, https://raise.mit.edu/
-          or https://owl.english.purdue.edu/owl/resource/747/01/
-
-      - label: License
-        name: license
-        widget: select
-        options:
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
-          - label: CC BY
-            value: https://creativecommons.org/licenses/by/4.0/
-          - label: CC BY-NC
-            value: https://creativecommons.org/licenses/by-nc/4.0/
-          - label: public domain
-            value: https://creativecommons.org/publicdomain/zero/1.0/
-          - label: Externally Managed
-            value: externally-managed
-        default: externally-managed
-        required: true
-
-      - label: Is Image
-        name: is_image
-        widget: hidden
-        default: false
-        required: false
-        help: >
-          Wether this link is an embedded image.
-          Currently added to support legacy image
-          embeds.
-
-      - label: Is Broken
-        name: is_broken
-        widget: hidden
-        default: null
-        required: false
-        help: Whether or not this link is broken.
-
-      - label: Internet Archive Backup URL
-        name: backup_url
-        widget: hidden
-        default: null
-        required: false
-        help: URL to use when is_broken is true.
 
   - category: Content
     folder: content/resources
@@ -336,6 +274,67 @@ collections:
           - label: Internet Archive URL
             name: archive_url
             widget: string
+
+  - category: Content
+    name: external-resource
+    label: External Resources
+    folder: content/external-resources
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+        help: >
+          Text to display for the link.
+          You can change this later when adding links.
+
+      - label: URL
+        name: external_url
+        widget: string
+        required: true
+        help: >
+          The URL. For example, https://raise.mit.edu/
+          or https://owl.english.purdue.edu/owl/resource/747/01/
+
+      - label: License
+        name: license
+        widget: select
+        options:
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC BY
+            value: https://creativecommons.org/licenses/by/4.0/
+          - label: CC BY-NC
+            value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: public domain
+            value: https://creativecommons.org/publicdomain/zero/1.0/
+          - label: All Rights Reserved
+            value: https://en.wikipedia.org/wiki/All_rights_reserved/
+        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        required: true
+
+      - label: License Externally Managed
+        name: is_license_external
+        widget: boolean
+        default: false
+        required: true
+        help: >
+          Whether or not this resource has an external
+          license.
+
+      - label: Is Broken
+        name: is_broken
+        widget: hidden
+        default: null
+        required: false
+        help: Whether or not this link is broken.
+
+      - label: Internet Archive Backup URL
+        name: backup_url
+        widget: hidden
+        default: null
+        required: false
+        help: URL to use when is_broken is true.
 
   - category: Settings
     name: metadata
