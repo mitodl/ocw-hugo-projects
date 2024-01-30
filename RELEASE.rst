@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.42.1
+--------------
+
+- Add Quechua language topic to metadata (#275)
+
 Version 0.42.0 (Released January 25, 2024)
 --------------
 
