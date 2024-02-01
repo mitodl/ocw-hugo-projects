@@ -215,8 +215,6 @@ collections:
             value: https://creativecommons.org/licenses/by-nc/4.0/
           - label: public domain
             value: https://creativecommons.org/publicdomain/zero/1.0/
-          - label: All Rights Reserved
-            value: https://en.wikipedia.org/wiki/All_rights_reserved
         widget: select
         default: https://creativecommons.org/licenses/by-nc-sa/4.0/
         required: true
