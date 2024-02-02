@@ -313,14 +313,14 @@ collections:
         default: https://creativecommons.org/licenses/by-nc-sa/4.0/
         required: true
 
-      - label: License Externally Managed
-        name: is_license_external
+      - label: Include non-OCW licensing warning
+        name: has_external_license_warning
         widget: boolean
-        default: false
+        default: true
         required: true
         help: >
-          Whether or not this resource has an external
-          license.
+          If true, user sees warning that external content is not
+          covered by OCW licensing.
 
       - label: Is Broken
         name: is_broken
