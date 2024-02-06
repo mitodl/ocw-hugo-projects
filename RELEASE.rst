@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.43.0
+--------------
+
+- fix: license labels (#274)
+
 Version 0.42.1 (Released January 30, 2024)
 --------------
 
