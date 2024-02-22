@@ -284,17 +284,14 @@ collections:
         name: title
         widget: string
         required: true
-        help: >
-          Text to display for the link.
-          You can change this later when adding links.
 
       - label: URL
         name: external_url
         widget: string
         required: true
         help: >
-          The URL. For example, https://raise.mit.edu/
-          or https://owl.english.purdue.edu/owl/resource/747/01/
+          The URL. For example,
+          https://owl.english.purdue.edu/owl/resource/747/01/
 
       - label: License
         name: license
