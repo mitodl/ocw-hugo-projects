@@ -1,6 +1,22 @@
 Release Notes
 =============
 
+Version 0.43.0 (Released February 06, 2024)
+--------------
+
+- fix: license labels (#274)
+
+Version 0.42.1 (Released January 30, 2024)
+--------------
+
+- Add Quechua language topic to metadata (#275)
+
+Version 0.42.0 (Released January 25, 2024)
+--------------
+
+- chore(config) add pre-commit-config (#270)
+- Fix Non-Credit (#272)
+
 Version 0.41.1 (Released January 02, 2024)
 --------------
 
