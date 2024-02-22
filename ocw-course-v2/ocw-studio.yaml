@@ -217,7 +217,7 @@ collections:
           - label: public domain
             value: https://creativecommons.org/publicdomain/zero/1.0/
         widget: select
-        default: https://creativecommons.org/licenses/by-nc-sa/4.0
+        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
         required: true
 
       # show the field below only if the type of resource is "image"
