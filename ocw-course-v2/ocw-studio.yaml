@@ -38,6 +38,7 @@ collections:
           - page
           - video_gallery
           - resource-list
+          - external-resource
         embed:
           - resource
 
@@ -273,6 +274,64 @@ collections:
           - label: Internet Archive URL
             name: archive_url
             widget: string
+
+  - category: Content
+    name: external-resource
+    label: External Resources
+    folder: content/external-resources
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+
+      - label: URL
+        name: external_url
+        widget: string
+        required: true
+        help: >
+          The URL. For example,
+          https://owl.english.purdue.edu/owl/resource/747/01/
+
+      - label: License
+        name: license
+        widget: select
+        options:
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC BY
+            value: https://creativecommons.org/licenses/by/4.0/
+          - label: CC BY-NC
+            value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: public domain
+            value: https://creativecommons.org/publicdomain/zero/1.0/
+          - label: All Rights Reserved
+            value: https://en.wikipedia.org/wiki/All_rights_reserved
+        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        required: true
+
+      - label: Include non-OCW licensing warning
+        name: has_external_license_warning
+        widget: boolean
+        default: true
+        required: true
+        help: >
+          If true, user sees warning that external content is not
+          covered by OCW licensing.
+
+      - label: Is Broken
+        name: is_broken
+        widget: hidden
+        default: null
+        required: false
+        help: Whether or not this link is broken.
+
+      - label: Internet Archive Backup URL
+        name: backup_url
+        widget: hidden
+        default: null
+        required: false
+        help: URL to use when is_broken is true.
 
   - category: Settings
     name: metadata
