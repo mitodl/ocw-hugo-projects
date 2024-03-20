@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.44.0
+Version 0.44.0 (Released March 20, 2024)
 --------------
 
 - feat: create a new external-resource type (collection) (#271)
