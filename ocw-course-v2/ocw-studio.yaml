@@ -280,11 +280,6 @@ collections:
     label: External Resources
     folder: content/external-resources
     fields:
-      - label: Title
-        name: title
-        widget: string
-        required: true
-
       - label: URL
         name: external_url
         widget: string
