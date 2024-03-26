@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.44.1
+Version 0.44.1 (Released March 26, 2024)
 --------------
 
 - refactor(config): remove unused title field from external-resource (#279)
