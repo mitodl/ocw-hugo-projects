@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.44.2
+--------------
+
+- Add SP department option (#281)
+
 Version 0.44.1 (Released March 26, 2024)
 --------------
 
