@@ -410,6 +410,7 @@ collections:
               - MAS
               - PE
               - RES
+              - SP
               - STS
               - WGS
             widget: "select"
