@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.45.0
+Version 0.45.0 (Released April 29, 2024)
 --------------
 
 - config(course): add title update license fields (#292)
