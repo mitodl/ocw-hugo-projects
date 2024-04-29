@@ -208,12 +208,14 @@ collections:
       - label: License
         name: license
         options:
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
           - label: CC BY-NC
             value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC BY-SA
+            value: https://creativecommons.org/licenses/by-sa/4.0/
           - label: public domain
             value: https://creativecommons.org/publicdomain/zero/1.0/
         widget: select
@@ -280,6 +282,12 @@ collections:
     label: External Resources
     folder: content/external-resources
     fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+        help: The default link text for this external resource.
+
       - label: URL
         name: external_url
         widget: string
@@ -292,17 +300,19 @@ collections:
         name: license
         widget: select
         options:
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
           - label: CC BY-NC
             value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC BY-SA
+            value: https://creativecommons.org/licenses/by-sa/4.0/
           - label: public domain
             value: https://creativecommons.org/publicdomain/zero/1.0/
           - label: All Rights Reserved
             value: https://en.wikipedia.org/wiki/All_rights_reserved
-        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        default: https://en.wikipedia.org/wiki/All_rights_reserved
         required: true
 
       - label: Include non-OCW licensing warning
