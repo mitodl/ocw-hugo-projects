@@ -208,12 +208,12 @@ collections:
       - label: License
         name: license
         options:
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
           - label: CC BY-NC
             value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - label: CC BY-SA
             value: https://creativecommons.org/licenses/by-sa/4.0/
           - label: public domain
@@ -300,12 +300,12 @@ collections:
         name: license
         widget: select
         options:
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
           - label: CC BY-NC
             value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - label: CC BY-SA
             value: https://creativecommons.org/licenses/by-sa/4.0/
           - label: public domain
