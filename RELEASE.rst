@@ -1,6 +1,16 @@
 Release Notes
 =============
 
+Version 0.45.0
+--------------
+
+- config(course): add title update license fields (#292)
+- chore(deps): update dependency yamllint to v1.35.1 (#287)
+- chore(deps): update dependency pathspec to v0.12.1 (#286)
+- chore(deps): update dependency pyyaml to v6.0.1 (#285)
+- chore(deps): lock file maintenance (#284)
+- Add renovate.json (#264)
+
 Version 0.44.2 (Released April 10, 2024)
 --------------
 
