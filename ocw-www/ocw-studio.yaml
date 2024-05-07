@@ -96,7 +96,6 @@ collections:
           - resource_collections
           - resource
           - page
-          - external-resource
         embed:
           - resource
 
@@ -137,7 +136,6 @@ collections:
           - resource_collections
           - resource
           - page
-          - external-resource
 
         embed:
           - resource
