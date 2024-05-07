@@ -81,7 +81,24 @@ collections:
 
       - label: Description
         name: description
+        widget: text
+        help: The plain text description of this page as seen by search engines
+
+      - label: Body
+        name: body
         widget: markdown
+        minimal: false
+        allowed_html:
+          - sub
+          - sup
+        link:
+          - course_collections
+          - resource_collections
+          - resource
+          - page
+          - external-resource
+        embed:
+          - resource
 
       - label: Courses
         name: courses
@@ -103,10 +120,28 @@ collections:
         widget: string
         required: true
 
-      - label: "Description"
-        name: "description"
-        widget: "markdown"
+      - label: Description
+        name: description
+        widget: text
+        help: The plain text description of this page as seen by search engines
 
+      - label: Body
+        name: body
+        widget: markdown
+        minimal: false
+        allowed_html:
+          - sub
+          - sup
+        link:
+          - course_collections
+          - resource_collections
+          - resource
+          - page
+          - external-resource
+
+        embed:
+          - resource
+        
       - label: Cover Image
         name: cover-image
         widget: relation
