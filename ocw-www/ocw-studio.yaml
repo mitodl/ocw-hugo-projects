@@ -139,7 +139,7 @@ collections:
 
         embed:
           - resource
-        
+
       - label: Cover Image
         name: cover-image
         widget: relation
