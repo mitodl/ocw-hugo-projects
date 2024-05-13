@@ -122,7 +122,7 @@ collections:
       - label: Description
         name: description
         widget: text
-        help: The plain text description of collection as seen by search engines
+        help: The plain text description of the collection as seen by search engines
 
       - label: Body
         name: body
@@ -136,7 +136,6 @@ collections:
           - resource_collections
           - resource
           - page
-
         embed:
           - resource
 
