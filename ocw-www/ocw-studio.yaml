@@ -82,7 +82,7 @@ collections:
       - label: Description
         name: description
         widget: text
-        help: The plain text description of this course list as seen by search engines
+        help: The plain text description of the list as seen by search engines
 
       - label: Body
         name: body
@@ -122,7 +122,7 @@ collections:
       - label: Description
         name: description
         widget: text
-        help: The plain text description of this course collection as seen by search engines
+        help: The plain text description of collection as seen by search engines
 
       - label: Body
         name: body
