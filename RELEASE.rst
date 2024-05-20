@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.46.0
+--------------
+
+- Link and embed resources (#294)
+
 Version 0.45.0 (Released April 29, 2024)
 --------------
 
