@@ -293,14 +293,20 @@ collections:
         required: true
         widget: boolean
         help: Enable this setting to prevent publishing in production
+        default: false
 
       - label: Title
         name: title
         required: true
         widget: string
+        help: If this is a video, this will be published as the YouTube title
       - label: Description
-        name: description
+        name: body
         widget: markdown
+        minimal: true
+        link:
+          - resource
+          - page
       - label: Resource Type
         name: resourcetype
         required: true
@@ -310,6 +316,9 @@ collections:
           - Video
           - Document
           - Other
+      - label: Mime Type
+        name: file_type
+        widget: hidden
       - label: Size
         name: file_size
         widget: hidden
@@ -319,10 +328,76 @@ collections:
       - label: File
         name: file
         widget: file
+      - label: "Learning Resource Types"
+        name: "learning_resource_types"
+        widget: select
+        multiple: true
+        options:
+          - "Activity Assignments"
+          - "Activity Assignments with Examples"
+          - "Competition Videos"
+          - "Course Introduction"
+          - "Demonstration Audio"
+          - "Demonstration Videos"
+          - "Design Assignments"
+          - "Design Assignments with Examples"
+          - "Exam Materials"
+          - Exams
+          - "Exams with Solutions"
+          - "Image Gallery"
+          - "Instructor Insights"
+          - Labs
+          - "Lecture Audio"
+          - "Lecture Notes"
+          - "Lecture Videos"
+          - "Media Assignments"
+          - "Media Assignments with Examples"
+          - "Multiple Assignment Types"
+          - "Multiple Assignment Types with Solutions"
+          - Music
+          - "Online Textbook"
+          - "Other Audio"
+          - "Other Video"
+          - "Presentation Assignments"
+          - "Presentation Assignments with Examples"
+          - "Problem Sets"
+          - "Problem Sets with Solutions"
+          - "Programming Assignments"
+          - "Programming Assignments with Examples"
+          - Projects
+          - "Projects with Examples"
+          - Readings
+          - "Recitation Notes"
+          - "Recitation Videos"
+          - "Simulation Videos"
+          - Simulations
+          - Tools
+          - "Tutorial Videos"
+          - "Video Materials"
+          - Videos
+          - "Workshop Videos"
+          - "Written Assignments"
+          - "Written Assignments with Examples"
+      - label: License
+        name: license
+        options:
+          - label: CC BY
+            value: https://creativecommons.org/licenses/by/4.0/
+          - label: CC BY-NC
+            value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC BY-SA
+            value: https://creativecommons.org/licenses/by-sa/4.0/
+          - label: public domain
+            value: https://creativecommons.org/publicdomain/zero/1.0/
+        widget: select
+        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        required: true
 
       # show the field below only if the type of resource is "image"
       - label: Image Metadata
-        name: metadata
+        name: image_metadata
         widget: object
         condition: { field: resourcetype, equals: Image }
         fields:
@@ -331,10 +406,109 @@ collections:
             widget: string
           - label: Caption
             name: caption
-            widget: string
+            widget: markdown
           - label: Credit
             name: credit
+            widget: markdown
+      # show the sections below only if the type of resource is "Video"
+      - label: Video Metadata
+        name: video_metadata
+        widget: object
+        condition: { field: resourcetype, equals: Video }
+        help: These fields will be published to YouTube
+        fields:
+          - label: Youtube ID
+            name: youtube_id
+            widget: string
+          - label: Youtube Description
+            name: youtube_description
             widget: text
+          - label: Youtube Speakers
+            name: video_speakers
+            widget: string
+          - label: Youtube Tags (comma separated; max 100 characters)
+            name: video_tags
+            widget: text
+      - label: Video Files
+        name: video_files
+        widget: object
+        condition: { field: resourcetype, equals: Video }
+        help: >
+          Internal related resource URLs, don't edit
+          unless you know what you're doing
+        fields:
+          - label: Video Thumbnail URL
+            name: video_thumbnail_file
+            widget: string
+          - label: Video Captions (WebVTT) URL
+            name: video_captions_file
+            widget: string
+          - label: Video Transcript (PDF) URL
+            name: video_transcript_file
+            widget: string
+          - label: Internet Archive URL
+            name: archive_url
+            widget: string
+  - category: Content
+    name: external-resource
+    label: External Resources
+    folder: content/external-resources
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        required: true
+        help: The default link text for this external resource.
+
+      - label: URL
+        name: external_url
+        widget: string
+        required: true
+        help: >
+          The URL. For example,
+          https://owl.english.purdue.edu/owl/resource/747/01/
+
+      - label: License
+        name: license
+        widget: select
+        options:
+          - label: CC BY
+            value: https://creativecommons.org/licenses/by/4.0/
+          - label: CC BY-NC
+            value: https://creativecommons.org/licenses/by-nc/4.0/
+          - label: CC BY-NC-SA
+            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - label: CC BY-SA
+            value: https://creativecommons.org/licenses/by-sa/4.0/
+          - label: public domain
+            value: https://creativecommons.org/publicdomain/zero/1.0/
+          - label: All Rights Reserved
+            value: https://en.wikipedia.org/wiki/All_rights_reserved
+        default: https://en.wikipedia.org/wiki/All_rights_reserved
+        required: true
+
+      - label: Include non-OCW licensing warning
+        name: has_external_license_warning
+        widget: boolean
+        default: true
+        required: true
+        help: >
+          If true, user sees warning that external content is not
+          covered by OCW licensing.
+
+      - label: Is Broken
+        name: is_broken
+        widget: hidden
+        default: null
+        required: false
+        help: Whether or not this link is broken.
+
+      - label: Internet Archive Backup URL
+        name: backup_url
+        widget: hidden
+        default: null
+        required: false
+        help: URL to use when is_broken is true.
 
   - category: Content
     folder: content/instructors
