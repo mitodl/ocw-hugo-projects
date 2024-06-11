@@ -27,11 +27,15 @@ collections:
         name: body
         widget: markdown
         minimal: false
+        allowed_html:
+          - sub
+          - sup
         link:
           - course_collections
           - resource_collections
           - resource
           - page
+          - external-resource
         embed:
           - resource
 
