@@ -42,3 +42,9 @@ security:
       - SITEMAP_DOMAIN
       - SENTRY_DSN
       - NOINDEX
+markup:
+  highlight:
+    style: colorful
+  goldmark:
+    renderer:
+      unsafe: true
