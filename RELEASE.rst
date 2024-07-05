@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.47.0
+--------------
+
+- Update Resource and External Resource Config in www (#296)
+
 Version 0.46.0 (Released May 21, 2024)
 --------------
 
