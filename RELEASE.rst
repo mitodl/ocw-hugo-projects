@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.46.1
+Version 0.46.1 (Released July 10, 2024)
 --------------
 
 - Remove course_image_thumbnail field (#297)
