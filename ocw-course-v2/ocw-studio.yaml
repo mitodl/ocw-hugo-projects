@@ -409,7 +409,6 @@ collections:
               - IDS
               - MAS
               - PE
-              - RES
               - SP
               - STS
               - WGS
