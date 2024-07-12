@@ -371,7 +371,6 @@ collections:
               filter_type: "equals"
               value: "Image"
           - label: "Department Numbers"
-            min: 1
             multiple: true
             name: "department_numbers"
             options:
