@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.46.2
+--------------
+
+- Remove RES from Available Departments in OCW config (#302)
+- Remove min: 1 value for department numbers (#301)
+
 Version 0.46.1 (Released July 10, 2024)
 --------------
 
