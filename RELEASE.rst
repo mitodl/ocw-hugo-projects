@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.46.2
+Version 0.46.2 (Released July 15, 2024)
 --------------
 
 - Remove RES from Available Departments in OCW config (#302)
