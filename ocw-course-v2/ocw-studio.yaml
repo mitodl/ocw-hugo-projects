@@ -376,7 +376,7 @@ collections:
             options:
               - "1"
               - "2"
-              - "3"`
+              - "3"
               - "4"
               - "5"
               - "6"
@@ -873,7 +873,6 @@ collections:
                 Blockchain: []
                 AR/VR/MR/XR: []
                 CyberSecurity: []
-                Machine Learning: []
                 Visualization: []
                 Computer Science: []
                 Data Science: []
