@@ -376,7 +376,7 @@ collections:
             options:
               - "1"
               - "2"
-              - "3"
+              - "3"`
               - "4"
               - "5"
               - "6"
@@ -832,6 +832,123 @@ collections:
                 Education Policy: []
                 Educational Technology: []
                 Higher Education: []
+          - label: MIT Learn Topics
+            name: mit_learn_topics
+            widget: hierarchical-select
+            levels:
+              - { label: "Topic", name: "topic" }
+              - { label: "Subtopic", name: "subtopic" }
+            options_map:
+              Art, Design & Architecture:
+                Architecture: []
+                Environmental Design: []
+                Game Design: []
+                Performing Arts: []
+                Visual Arts: []
+                Media Studies: []
+                Real Estate: []
+                Art History: []
+              Business & Management:
+                Entrepreneurship: []
+                Organizations & Leadership: []
+                Negotiation & Communication: []
+                Marketing: []
+                Supply Chain: []
+                Finance & Accounting: []
+                Operations: []
+                Family Enterprise: []
+                Business Analytics: []
+                Systems Thinking: []
+                Strategy & Innovation: []
+                Digital Business & IT: []
+                Management: []
+              Data Science, Analytics & Computer Technology:
+                AI: []
+                Programming & Coding: []
+                Software Design and Engineering: []
+                Algorithms and Data Structures: []
+                Networks and Security: []
+                Machine Learning: []
+                User Experience: []
+                Blockchain: []
+                AR/VR/MR/XR: []
+                CyberSecurity: []
+                Machine Learning: []
+                Visualization: []
+                Computer Science: []
+                Data Science: []
+              Education & Teaching:
+                Pedagogy and Curriculum: []
+                Education Policy: []
+                Educational Technology: []
+                Digital Learning: []
+                Faculty Leadership: []
+              Social Sciences:
+                Anthropology: []
+                Communication: []
+                Economics: []
+                Geography: []
+                Law: []
+                Political Science: []
+                Psychology: []
+                Policy and Administration: []
+                Sociology: []
+                Urban Studies: []
+                Gender Studies: []
+                International Development: []
+              Science & Math:
+                Biology: []
+                Chemistry: []
+                Cognitive Science: []
+                Earth Science: []
+                Physics: []
+                Mathematics: []
+              Energy, Climate & Sustainability:
+                Energy: []
+                Environmental and Climate Justice: []
+                Climate Science: []
+                Built Environment: []
+                Natural Systems: []
+                Adaptation and Resilience: []
+                Climate and Energy Policy: []
+                Sustainable Business: []
+              Engineering:
+                Aerospace Engineering: []
+                Biological Engineering: []
+                Chemical Engineering: []
+                Civil Engineering: []
+                Electrical Engineering: []
+                Environmental Engineering: []
+                Materials Science and Engineering: []
+                Nuclear Engineering: []
+                Ocean Engineering: []
+                Systems Engineering: []
+                Mechanical Engineering: []
+                Manufacturing: []
+              Humanities:
+                History: []
+                Language: []
+                Linguistics: []
+                Literature: []
+                Philosophy: []
+                Music: []
+                Religion: []
+              Innovation & Entrepreneurship:
+                Startups/New Enterprises: []
+                Corporate Innovation: []
+                Innovation Process: []
+                Product Innovation: []
+                Inventions & Patents: []
+                Innovation Ecosystems: []
+              Health & Medicine:
+                Biomedical Technologies: []
+                Health Care Management: []
+                Immunology: []
+                Imaging: []
+                Mental Health: []
+                Pathology and Pathophysiology: []
+                Pharmacology & Toxicology: []
+                Public Health: []
           - label: Hide Course Download
             name: hide_download
             required: true
