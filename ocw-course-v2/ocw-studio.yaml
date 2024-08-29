@@ -838,6 +838,7 @@ collections:
             levels:
               - { label: "Topic", name: "topic" }
               - { label: "Subtopic", name: "subtopic" }
+            max: 2
             options_map:
               Art, Design & Architecture:
                 Architecture: []
