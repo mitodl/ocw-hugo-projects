@@ -839,6 +839,7 @@ collections:
               - { label: "Topic", name: "topic" }
               - { label: "Subtopic", name: "subtopic" }
             max: 2
+            help: This field is intended to align course topics with the MIT Learn platform
             options_map:
               Art, Design & Architecture:
                 Architecture: []
