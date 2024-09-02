@@ -840,8 +840,9 @@ collections:
               - { label: "Subtopic", name: "subtopic" }
             max: 2
             help: >
-              This field is intended to align course topics
-              with the MIT Learn platform
+              This field allows MIT Learn content curators to apply
+              course topics in learn.mit.edu.
+              Only edit if you are an MIT Learn content curator.
             options_map:
               Art, Design & Architecture:
                 Architecture: []
