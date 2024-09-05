@@ -840,8 +840,6 @@ collections:
               - { label: "Subtopic", name: "subtopic" }
             max: 2
             help: >
-              This field allows MIT Learn content curators to apply
-              course topics in learn.mit.edu.
               Only MIT Learn content curators should edit this. 
             options_map:
               Art, Design & Architecture:
