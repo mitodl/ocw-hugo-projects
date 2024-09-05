@@ -839,8 +839,7 @@ collections:
               - { label: "Topic", name: "topic" }
               - { label: "Subtopic", name: "subtopic" }
             max: 2
-            help: >
-              Only MIT Learn content curators should edit this. 
+            help: Only MIT Learn content curators should edit this. 
             options_map:
               Art, Design & Architecture:
                 Architecture: []
