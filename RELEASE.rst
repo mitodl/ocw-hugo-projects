@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.47.0
+--------------
+
+- Add MIT Learn Topics Field to Course Metadata in OCW Studio (#305)
+- chore(deps): update dependency pyyaml to v6.0.2 (#304)
+
 Version 0.46.2 (Released July 15, 2024)
 --------------
 
