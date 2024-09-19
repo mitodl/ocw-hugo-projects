@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.47.0
+Version 0.47.0 (Released September 19, 2024)
 --------------
 
 - Add MIT Learn Topics Field to Course Metadata in OCW Studio (#305)
