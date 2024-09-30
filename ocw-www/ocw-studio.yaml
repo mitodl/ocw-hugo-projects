@@ -502,19 +502,29 @@ collections:
           If true, user sees warning that external content is not
           covered by OCW licensing.
 
-      - label: Is Broken
-        name: is_broken
+      - label: Status
+        name: status
         widget: hidden
-        default: null
         required: false
-        help: Whether or not this link is broken.
+        help: The current status of the external resource (e.g., valid, broken, unchecked, check_failed).
 
-      - label: Internet Archive Backup URL
-        name: backup_url
+      - label: Wayback URL
+        name: wayback_url
         widget: hidden
-        default: null
         required: false
-        help: URL to use when is_broken is true.
+        help: URL to the last Wayback Machine snapshot of the resource.
+
+      - label: Wayback Status
+        name: wayback_status
+        widget: hidden
+        required: false
+        help: The status of the Wayback Machine snapshot (pending, success, error).
+
+      - label: Wayback Status Extended
+        name: wayback_status_ext
+        widget: hidden
+        required: false
+        help: Extended information on Wayback Machine status if available.
 
   - category: Content
     folder: content/instructors
