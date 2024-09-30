@@ -328,7 +328,9 @@ collections:
         name: status
         widget: hidden
         required: false
-        help: The current status of the external resource (e.g., valid, broken, unchecked, check_failed).
+        help: >
+          The current status of the external resource
+          (e.g., valid, broken, unchecked, check_failed).
 
       - label: Wayback URL
         name: wayback_url
@@ -340,7 +342,9 @@ collections:
         name: wayback_status
         widget: hidden
         required: false
-        help: The status of the Wayback Machine snapshot (pending, success, error).
+        help: >
+          The status of the Wayback Machine snapshot
+          (e.g., pending, success, error).
 
       - label: Wayback Status Extended
         name: wayback_status_ext
