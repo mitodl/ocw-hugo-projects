@@ -516,26 +516,12 @@ collections:
         required: false
         help: URL to the last Wayback Machine snapshot of the resource.
 
-      - label: Wayback Status
-        name: wayback_status
-        widget: hidden
-        required: false
-        help: >
-          The status of the Wayback Machine snapshot
-          (e.g., pending, success, error).
-
-      - label: Wayback Status Extended
-        name: wayback_status_ext
-        widget: hidden
-        required: false
-        help: Extended information on Wayback Machine status if available.
-
   - category: Content
     folder: content/instructors
     label: Instructor
     name: instructor
     slug: text_id
-    fields:
+    fields:m
       - label: Draft
         name: draft
         required: true
