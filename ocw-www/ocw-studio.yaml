@@ -521,7 +521,7 @@ collections:
     label: Instructor
     name: instructor
     slug: text_id
-    fields:m
+    fields:
       - label: Draft
         name: draft
         required: true
