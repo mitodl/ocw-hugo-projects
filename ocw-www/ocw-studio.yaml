@@ -474,6 +474,13 @@ collections:
           The URL. For example,
           https://owl.english.purdue.edu/owl/resource/747/01/
 
+      - label: Wayback URL
+        name: wayback_url
+        widget: string
+        required: false
+        readOnly: true
+        help: URL to the last Wayback Machine snapshot of the resource.
+
       - label: License
         name: license
         widget: select
@@ -509,12 +516,6 @@ collections:
         help: >
           The current status of the external resource
           (e.g., valid, broken, unchecked, check_failed).
-
-      - label: Wayback URL
-        name: wayback_url
-        widget: hidden
-        required: false
-        help: URL to the last Wayback Machine snapshot of the resource.
 
   - category: Content
     folder: content/instructors
