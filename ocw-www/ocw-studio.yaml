@@ -249,7 +249,7 @@ collections:
         required: true
         widget: boolean
         help: Enable this setting to prevent publishing in production
-
+      
       - label: Title
         name: title
         widget: string
@@ -284,10 +284,19 @@ collections:
         name: leadquote
         widget: string
 
+      - label: Is Quote
+        name: is_quote
+        widget: boolean
+        help: > 
+          Enable this setting if the testimonial is a quote only. If enabled,
+          the Body will not be used, and the Lead Quote will be displayed instead.
+        default: false
+
       - label: Body
         name: body
         widget: markdown
         minimal: false
+        help: "Note: This field is ignored if 'Is Quote' is enabled."
 
   - category: Content
     folder: content/resources
