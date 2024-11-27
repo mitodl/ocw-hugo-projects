@@ -288,8 +288,8 @@ collections:
         name: is_quote
         widget: boolean
         help: >
-          Enable this setting if the testimonial is a quote only. 
-          If enabled, the Body will not be used, 
+          Enable this setting if the testimonial is a quote only.
+          If enabled, the Body will not be used,
           and the Lead Quote will be displayed instead.
         default: false
 
