@@ -296,7 +296,7 @@ collections:
         name: body
         widget: markdown
         minimal: false
-        help: "Note: This field is ignored if 'Is Quote' is enabled."
+        help: "Note: Body is ignored if 'Is Quote' is enabled."
 
   - category: Content
     folder: content/resources
