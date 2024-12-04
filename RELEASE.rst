@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.48.0
+--------------
+
+- Add 'Is Quote' Boolean Field for OCW Testimonial Quotes (#308)
+
 Version 0.47.0 (Released September 19, 2024)
 --------------
 
