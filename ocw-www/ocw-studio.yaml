@@ -484,6 +484,13 @@ collections:
           The URL. For example,
           https://owl.english.purdue.edu/owl/resource/747/01/
 
+      - label: Wayback URL
+        name: wayback_url
+        widget: string
+        required: false
+        readOnly: true
+        help: URL to the last Wayback Machine snapshot of the resource.
+
       - label: License
         name: license
         widget: select
@@ -512,19 +519,13 @@ collections:
           If true, user sees warning that external content is not
           covered by OCW licensing.
 
-      - label: Is Broken
-        name: is_broken
+      - label: Status
+        name: status
         widget: hidden
-        default: null
         required: false
-        help: Whether or not this link is broken.
-
-      - label: Internet Archive Backup URL
-        name: backup_url
-        widget: hidden
-        default: null
-        required: false
-        help: URL to use when is_broken is true.
+        help: >
+          The current status of the external resource
+          (e.g., valid, broken, unchecked, check_failed).
 
   - category: Content
     folder: content/instructors
