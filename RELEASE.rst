@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.48.0
+--------------
+
+- Add Status and Wayback Tracking Fields to External Resources (#307)
+- Add 'Is Quote' Boolean Field for OCW Testimonial Quotes (#308)
+
 Version 0.47.0 (Released September 19, 2024)
 --------------
 
