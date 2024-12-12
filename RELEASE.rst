@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.48.0
+Version 0.48.0 (Released December 12, 2024)
 --------------
 
 - Add Status and Wayback Tracking Fields to External Resources (#307)
