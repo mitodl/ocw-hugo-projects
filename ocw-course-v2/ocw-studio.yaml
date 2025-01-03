@@ -247,6 +247,7 @@ collections:
           - label: Youtube ID
             name: youtube_id
             widget: string
+            required: true
           - label: Youtube Description
             name: youtube_description
             widget: text
