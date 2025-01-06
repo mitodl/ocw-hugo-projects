@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.48.1
+--------------
+
+- Manual ordering of user stories in Studio (#311)
+
 Version 0.48.0 (Released December 12, 2024)
 --------------
 
