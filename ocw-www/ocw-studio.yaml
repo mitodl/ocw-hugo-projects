@@ -594,3 +594,10 @@ collections:
             display_field: title
             multiple: true
             sortable: true
+          - label: Featured Stories
+            name: featured_stories
+            widget: relation
+            collection: stories
+            display_field: title
+            multiple: true
+            sortable: true
