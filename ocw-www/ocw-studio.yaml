@@ -513,7 +513,7 @@ collections:
       - label: Include non-OCW licensing warning
         name: has_external_license_warning
         widget: boolean
-        default: true
+        default: false
         required: true
         help: >
           If true, user sees warning that external content is not
