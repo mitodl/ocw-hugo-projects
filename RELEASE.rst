@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.48.1
+--------------
+
+- Remove name field in Studio for OCW Stories (#314)
+- Set default licensing pop-up warning to False (#315)
+- Manual ordering of user stories in Studio (#311)
+
 Version 0.48.0 (Released December 12, 2024)
 --------------
 
