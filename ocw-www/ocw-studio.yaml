@@ -255,10 +255,6 @@ collections:
         widget: string
         required: true
 
-      - label: Name
-        name: name
-        widget: string
-
       - label: Location
         name: location
         widget: string
