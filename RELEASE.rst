@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.48.1
+Version 0.48.1 (Released January 07, 2025)
 --------------
 
 - Remove name field in Studio for OCW Stories (#314)
