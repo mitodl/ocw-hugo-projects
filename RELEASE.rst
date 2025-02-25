@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.48.2
+--------------
+
+- Replace paginate with pagination.pagerSize (#317)
+
 Version 0.48.1 (Released January 07, 2025)
 --------------
 
