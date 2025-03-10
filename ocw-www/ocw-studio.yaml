@@ -562,7 +562,6 @@ collections:
         widget: string
         required: false
 
-
   - category: Settings
     label: Menu
     name: menu
