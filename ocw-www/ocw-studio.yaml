@@ -234,6 +234,13 @@ collections:
         name: body
         widget: markdown
 
+      - label: Build
+        name: _build
+        widget: hidden
+        default:
+          render: "never"
+          list: "always"
+
   - category: Content
     folder: content/stories
     label: Stories
@@ -555,12 +562,6 @@ collections:
         widget: string
         required: false
 
-      - label: Build
-        name: _build
-        widget: hidden
-        default:
-          render: "never"
-          list: "always"
 
   - category: Settings
     label: Menu
