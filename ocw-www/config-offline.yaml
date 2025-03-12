@@ -16,7 +16,9 @@ outputs:
     - HTML
 theme: ["base-offline", "www-offline", "base-theme"]
 uglyurls: true
-paginate: 20
+pagination:
+  disableAliases: true
+  pagerSize: 20
 disableKinds:
   - taxonomy
   - taxonomyTerm
