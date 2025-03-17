@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.49.0 (Released March 17, 2025)
+--------------
+
+- Remove headless: true (#319)
+- chore(deps): update actions/checkout action to v4 (#288)
+- Replace paginate with pagination.pagerSize (#317)
+
 Version 0.48.1 (Released January 07, 2025)
 --------------
 
