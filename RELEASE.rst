@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.49.0
+Version 0.49.0 (Released March 17, 2025)
 --------------
 
 - Remove headless: true (#319)
