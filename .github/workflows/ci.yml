@@ -5,11 +5,11 @@ jobs:
   yaml-checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 17.3.0
-      - uses: actions/setup-python@v2
+          node-version: 22
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.13.x"
       - run: yarn install --frozen-lockfile
