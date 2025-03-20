@@ -1,6 +1,14 @@
 Release Notes
 =============
 
+Version 0.49.1
+--------------
+
+- chore: upgrade CI GitHub Actions and Node.js version (#325)
+- chore(deps): update dependency yamllint to v1.36.1 (#324)
+- chore(deps): update dependency yamllint to v1.36.0 (#322)
+- chore(deps): update dependency python to 3.13.x (#321)
+
 Version 0.49.0 (Released March 17, 2025)
 --------------
 
