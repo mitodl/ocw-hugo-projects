@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.49.1
+Version 0.49.1 (Released April 03, 2025)
 --------------
 
 - chore: upgrade CI GitHub Actions and Node.js version (#325)
