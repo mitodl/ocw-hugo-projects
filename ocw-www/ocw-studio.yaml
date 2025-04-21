@@ -443,6 +443,9 @@ collections:
           - label: Youtube Tags (comma separated; max 100 characters)
             name: video_tags
             widget: text
+          - label: Source
+            name: source
+            widget: hidden
       - label: Video Files
         name: video_files
         widget: object
