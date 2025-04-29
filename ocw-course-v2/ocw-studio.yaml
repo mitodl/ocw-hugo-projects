@@ -185,6 +185,7 @@ collections:
           - "Online Textbook"
           - "Other Audio"
           - "Other Video"
+          - Podcasts
           - "Presentation Assignments"
           - "Presentation Assignments with Examples"
           - "Problem Sets"
@@ -197,6 +198,7 @@ collections:
           - "Recitation Notes"
           - "Recitation Videos"
           - "Simulation Videos"
+          - "Source files"
           - Simulations
           - Tools
           - "Tutorial Videos"
@@ -463,6 +465,7 @@ collections:
               - "Online Textbook"
               - "Other Audio"
               - "Other Video"
+              - Podcasts
               - "Presentation Assignments"
               - "Presentation Assignments with Examples"
               - "Problem Sets"
@@ -475,7 +478,9 @@ collections:
               - "Recitation Notes"
               - "Recitation Videos"
               - "Simulation Videos"
+              - "Source files"
               - Simulations
+              - "Student work"
               - Tools
               - "Tutorial Videos"
               - "Video Materials"
