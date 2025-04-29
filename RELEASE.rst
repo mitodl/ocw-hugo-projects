@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.49.2
+--------------
+
+- Add new Learning Resource Types (#331)
+- chore(deps): update dependency yamllint to v1.37.0 (#329)
+- chore(deps): update dependency yamllint to v1.36.2 (#328)
+
 Version 0.49.1 (Released April 03, 2025)
 --------------
 
