@@ -385,7 +385,10 @@ collections:
           - "Recitation Notes"
           - "Recitation Videos"
           - "Simulation Videos"
-          - "Source files"
+<<<<<<< Updated upstream
+=======
+          - "Editable files"
+>>>>>>> Stashed changes
           - Simulations
           - Tools
           - "Tutorial Videos"
