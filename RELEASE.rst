@@ -1,6 +1,15 @@
 Release Notes
 =============
 
+Version 0.49.2
+--------------
+
+- Change LRTs Student Work and Editable Files case (#334)
+- Replace Source files with Editable files (Learning Resource Type) (#333)
+- Add new Learning Resource Types (#331)
+- chore(deps): update dependency yamllint to v1.37.0 (#329)
+- chore(deps): update dependency yamllint to v1.36.2 (#328)
+
 Version 0.49.1 (Released April 03, 2025)
 --------------
 
