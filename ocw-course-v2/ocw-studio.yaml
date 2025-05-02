@@ -198,7 +198,7 @@ collections:
           - "Recitation Notes"
           - "Recitation Videos"
           - "Simulation Videos"
-          - "Editable files"
+          - "Editable Files"
           - Simulations
           - Tools
           - "Tutorial Videos"
@@ -478,9 +478,9 @@ collections:
               - "Recitation Notes"
               - "Recitation Videos"
               - "Simulation Videos"
-              - "Editable files"
+              - "Editable Files"
               - Simulations
-              - "Student work"
+              - "Student Work"
               - Tools
               - "Tutorial Videos"
               - "Video Materials"
