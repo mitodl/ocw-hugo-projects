@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.49.2
+Version 0.49.2 (Released May 07, 2025)
 --------------
 
 - Change LRTs Student Work and Editable Files case (#334)
