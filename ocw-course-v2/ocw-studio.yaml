@@ -256,6 +256,14 @@ collections:
           - label: Youtube Tags (comma separated; max 100 characters)
             name: video_tags
             widget: text
+<<<<<<< HEAD
+=======
+          # Source is added to the video resource metadata to
+          # assist with syncing missing captions/transcripts
+          # for pre-existing videos (created using OCW Studio).
+          # It is currently only set to "youtube".
+          # But other possible values could be "legacy", and "gdrive".
+>>>>>>> 49d430bd8ebc377f505384ecc4616ada3ff23024
           - label: Source
             name: source
             widget: hidden
