@@ -258,6 +258,17 @@ collections:
           - label: Youtube Tags (comma separated; max 100 characters)
             name: video_tags
             widget: text
+          - label: Source
+            name: source
+            widget: hidden
+            help: >
+              Source is added to the resource metadata to be used by
+              post_save signal for pre-existing videos
+              (videos created using OCW Studio: Add Video Resource).
+              It is primarily used to assist with syncing missing
+              captions/transcripts with the resource.
+              It is currently only set to "youtube".
+              But other possible values could be "legacy", and "gdrive".
       - label: Video Files
         name: video_files
         widget: object

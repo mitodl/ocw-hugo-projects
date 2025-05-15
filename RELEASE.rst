@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.49.3
+--------------
+
+- Add source in video_metadata (#330)
+- chore(deps): pin dependencies (#327)
+- chore(deps): update dependency yamllint to v1.37.1 (#336)
+
 Version 0.49.2 (Released May 07, 2025)
 --------------
 
