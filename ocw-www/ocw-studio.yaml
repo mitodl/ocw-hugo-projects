@@ -355,6 +355,7 @@ collections:
           - "Demonstration Videos"
           - "Design Assignments"
           - "Design Assignments with Examples"
+          - "Editable Files"
           - "Exam Materials"
           - Exams
           - "Exams with Solutions"
@@ -385,7 +386,6 @@ collections:
           - "Recitation Notes"
           - "Recitation Videos"
           - "Simulation Videos"
-          - "Editable Files"
           - Simulations
           - Tools
           - "Tutorial Videos"
