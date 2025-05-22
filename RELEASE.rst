@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.50.0
+Version 0.50.0 (Released May 22, 2025)
 --------------
 
 - Alphabetical ordering for Editable Files (#338)
