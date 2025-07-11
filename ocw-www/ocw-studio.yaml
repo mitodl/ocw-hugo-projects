@@ -356,12 +356,11 @@ collections:
           - "Design Assignments"
           - "Design Assignments with Examples"
           - "Editable Files"
-          - "Exam Materials"
           - Exams
           - "Exams with Solutions"
           - "Image Gallery"
           - "Instructor Insights"
-          - Labs
+          - "Laboratory Assignments"
           - "Lecture Audio"
           - "Lecture Notes"
           - "Lecture Videos"
@@ -369,8 +368,8 @@ collections:
           - "Media Assignments with Examples"
           - "Multiple Assignment Types"
           - "Multiple Assignment Types with Solutions"
-          - Music
-          - "Online Textbook"
+          - "Music Audio"
+          - "Open Textbooks"
           - "Other Audio"
           - "Other Video"
           - Podcasts
@@ -378,15 +377,16 @@ collections:
           - "Presentation Assignments with Examples"
           - "Problem Sets"
           - "Problem Sets with Solutions"
+          - "Problem-solving Notes"
+          - "Problem-solving Videos"
           - "Programming Assignments"
           - "Programming Assignments with Examples"
           - Projects
           - "Projects with Examples"
           - Readings
-          - "Recitation Notes"
-          - "Recitation Videos"
           - "Simulation Videos"
           - Simulations
+          - "Supplemental Exam Materials"
           - Tools
           - "Tutorial Videos"
           - "Video Materials"
