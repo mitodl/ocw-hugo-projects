@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.51.0
+--------------
+
+- updated tags for learning resource types (#340)
+- [pre-commit.ci] pre-commit autoupdate (#291)
+
 Version 0.50.0 (Released May 22, 2025)
 --------------
 
