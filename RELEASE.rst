@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.51.0
+Version 0.51.0 (Released July 14, 2025)
 --------------
 
 - updated tags for learning resource types (#340)
