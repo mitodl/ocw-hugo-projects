@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.51.1
+--------------
+
+- Remove Course Introduction learning resource type (#342)
+
 Version 0.51.0 (Released July 14, 2025)
 --------------
 
