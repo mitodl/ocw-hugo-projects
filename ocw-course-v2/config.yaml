@@ -52,6 +52,17 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \\[
+            - \\]
+          inline:
+          - - \\(
+            - \\)
+        enable: true
+
 mediaTypes:
   application/zip:
     suffixes:
@@ -60,3 +71,6 @@ taxonomies:
   learning_resource_type: learning_resource_types
 permalinks:
   learning_resource_types: "/resources/:slug/"
+
+params:
+  math: true
