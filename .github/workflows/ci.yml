@@ -13,4 +13,4 @@ jobs:
       - name: Lint
         run: yamllint .
       - name: Format Check
-        run: yamlfmt --diff --check .
+        run: pre-commit run yamlfmt --all-files
