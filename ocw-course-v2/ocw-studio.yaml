@@ -155,7 +155,7 @@ collections:
       - label: File
         name: file
         widget: file
-      - label: Gdrive url
+      - label: Google Drive URL
         name: gdrive_url
         widget: string
         required: false
