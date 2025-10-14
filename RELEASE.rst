@@ -1,6 +1,17 @@
 Release Notes
 =============
 
+Version 0.52.0
+--------------
+
+- feat: add gdrive url field (#354)
+- Remove All the Javascript (#350)
+- chore(deps): update actions/setup-node action to v5 (#348)
+- chore(deps): update actions/setup-python action to v6 (#349)
+- chore(deps): update dependency pyyaml to v6.0.3 (#352)
+- chore(deps): update actions/checkout action to v5 (#347)
+- chore(deps): update actions/checkout digest to 08eba0b (#346)
+
 Version 0.51.1 (Released August 06, 2025)
 --------------
 
