@@ -279,9 +279,29 @@ collections:
           - label: Video Thumbnail URL
             name: video_thumbnail_file
             widget: string
+          - label: Video Captions Resource
+            name: video_captions_resource
+            widget: relation
+            collection: resource
+            display_field: title
+            multiple: false
+            filter:
+              field: "resourcetype"
+              filter_type: "equals"
+              value: "Other"
           - label: Video Captions (WebVTT) URL
             name: video_captions_file
             widget: string
+          - label: Video Transcript Resource
+            name: video_transcript_resource
+            widget: relation
+            collection: resource
+            display_field: title
+            multiple: false
+            filter:
+              field: "resourcetype"
+              filter_type: "equals"
+              value: "Document"
           - label: Video Transcript (PDF) URL
             name: video_transcript_file
             widget: string
