@@ -155,6 +155,12 @@ collections:
       - label: File
         name: file
         widget: file
+      - label: Google Drive URL
+        name: gdrive_url
+        widget: string
+        required: false
+        readOnly: true
+        help: The Google Drive URL of the resource
       - label: "Learning Resource Types"
         name: "learning_resource_types"
         widget: select
