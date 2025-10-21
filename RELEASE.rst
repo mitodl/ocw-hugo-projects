@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.52.0
+Version 0.52.0 (Released October 21, 2025)
 --------------
 
 - feat: add gdrive url field (#354)
