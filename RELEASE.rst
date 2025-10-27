@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.53.0
+Version 0.53.0 (Released October 27, 2025)
 --------------
 
 - Add fields for Video Captions and Transcript Resources to Edit Resource menu (#356)
