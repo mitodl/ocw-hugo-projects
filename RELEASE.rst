@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.53.1
+--------------
+
+- Remove Tools course learning resource type (#358)
+
 Version 0.53.0 (Released October 27, 2025)
 --------------
 
