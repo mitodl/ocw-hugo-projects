@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.54.0 (Released December 01, 2025)
+--------------
+
+- chore: removed simulation lrt from course and resource level (#361)
+- chore: removed image gallery lrt from resource level (#360)
+- feat: added problem set solutions tags and removed problem sets with solutions (#359)
+
 Version 0.53.1 (Released November 18, 2025)
 --------------
 
