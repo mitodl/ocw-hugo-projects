@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.54.0
+Version 0.54.0 (Released December 01, 2025)
 --------------
 
 - chore: removed simulation lrt from course and resource level (#361)
