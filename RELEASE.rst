@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.55.0
+Version 0.55.0 (Released December 02, 2025)
 --------------
 
 - Add course-v3 config (#364)
