@@ -1,6 +1,14 @@
 Release Notes
 =============
 
+Version 0.56.0
+--------------
+
+- chore(deps): update dependency yamllint to v1.38.0 (#369)
+- Update configs to change Exams with Solutions LRT to Exam Solutions (#368)
+- Remove mit-fields starter (#367)
+- [pre-commit.ci] pre-commit autoupdate (#345)
+
 Version 0.55.0 (Released December 02, 2025)
 --------------
 
