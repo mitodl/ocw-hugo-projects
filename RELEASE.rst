@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.56.0
+Version 0.56.0 (Released January 22, 2026)
 --------------
 
 - chore(deps): update dependency yamllint to v1.38.0 (#369)
