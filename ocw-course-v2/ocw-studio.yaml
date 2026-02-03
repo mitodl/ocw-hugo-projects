@@ -130,7 +130,7 @@ collections:
       - label: Description
         name: body
         widget: markdown
-        minimal: true
+        minimal: "with-math"
         link:
           - resource
           - page
