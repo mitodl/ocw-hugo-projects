@@ -21,10 +21,10 @@ Then you can run the pre-commit hooks by doing
 pre-commit run --all-files
 ```
 
-And run the formatter with
+To run only some hooks e.g for the formatter only
 
 ```sh
-yarn fmt
+pre-commit run yamlfmt --all-files
 ```
 
 These checks are run on PRs by GitHub actions as well.
