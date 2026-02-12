@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.56.1 (Released February 12, 2026)
+--------------
+
+- Use math-enabled minimal editor for description field (#372)
+
 Version 0.56.0 (Released January 22, 2026)
 --------------
 
