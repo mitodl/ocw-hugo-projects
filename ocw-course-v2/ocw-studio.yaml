@@ -42,6 +42,77 @@ collections:
         embed:
           - resource
 
+      - label: "Learning Resource Types"
+        name: "learning_resource_types"
+        widget: select
+        multiple: true
+        options:
+          - "Activity Assignments"
+          - "Activity Assignments with Examples"
+          - "Competition Videos"
+          - "Demonstration Audio"
+          - "Demonstration Videos"
+          - "Design Assignments"
+          - "Design Assignments with Examples"
+          - "Editable Files"
+          - Exams
+          - "Exam Solutions"
+          - "Instructor Insights"
+          - "Laboratory Assignments"
+          - "Lecture Audio"
+          - "Lecture Notes"
+          - "Lecture Videos"
+          - "Media Assignments"
+          - "Media Assignments with Examples"
+          - "Multiple Assignment Types"
+          - "Multiple Assignment Types with Solutions"
+          - "Music Audio"
+          - "Open Textbooks"
+          - "Other Audio"
+          - "Other Video"
+          - Podcasts
+          - "Presentation Assignments"
+          - "Presentation Assignments with Examples"
+          - "Problem Sets"
+          - "Problem Set Solutions"
+          - "Problem-solving Notes"
+          - "Problem-solving Videos"
+          - "Programming Assignments"
+          - "Programming Assignments with Examples"
+          - Projects
+          - "Projects with Examples"
+          - Readings
+          - "Simulation Videos"
+          - "Supplemental Exam Materials"
+          - Tools
+          - "Tutorial Videos"
+          - "Video Materials"
+          - Videos
+          - "Workshop Videos"
+          - "Written Assignments"
+          - "Written Assignments with Examples"
+
+      - label: Audience
+        name: audience
+        widget: select
+        multiple: true
+        options:
+          - Educators
+          - Learners
+
+      - label: Level
+        name: level
+        widget: select
+        multiple: true
+        options:
+          - "Undergraduate"
+          - "Graduate"
+          - "Non-Credit"
+          - "Early Childhood"
+          - "Primary School"
+          - "Middle School"
+          - "High School"
+
   - category: Content
     folder: content/lists
     label: "Resource lists"
