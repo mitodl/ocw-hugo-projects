@@ -281,6 +281,18 @@ collections:
           - "Workshop Videos"
           - "Written Assignments"
           - "Written Assignments with Examples"
+      - label: "Level"
+        name: "level"
+        widget: "select"
+        multiple: true
+        options:
+          - "Undergraduate"
+          - "Graduate"
+          - "Non-Credit"
+          - "Early Childhood"
+          - "Primary School"
+          - "Middle School"
+          - "High School"
       - label: License
         name: license
         options:
@@ -527,6 +539,9 @@ collections:
               - "Undergraduate"
               - "Graduate"
               - "Non-Credit"
+              - "Early Childhood"
+              - "Primary School"
+              - "Middle School"
               - "High School"
             widget: "select"
           - label: "Term"
