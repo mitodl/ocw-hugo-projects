@@ -236,7 +236,7 @@ collections:
         name: "learning_resource_types"
         widget: select
         multiple: true
-        options:
+        options: &learning_resource_types
           - "Activity Assignments"
           - "Activity Assignments with Examples"
           - "Competition Videos"
@@ -245,8 +245,9 @@ collections:
           - "Design Assignments"
           - "Design Assignments with Examples"
           - "Editable Files"
-          - Exams
+          - "Exams"
           - "Exam Solutions"
+          - "Image Gallery"
           - "Instructor Insights"
           - "Laboratory Assignments"
           - "Lecture Audio"
@@ -260,7 +261,7 @@ collections:
           - "Open Textbooks"
           - "Other Audio"
           - "Other Video"
-          - Podcasts
+          - "Podcasts"
           - "Presentation Assignments"
           - "Presentation Assignments with Examples"
           - "Problem Sets"
@@ -269,15 +270,16 @@ collections:
           - "Problem-solving Videos"
           - "Programming Assignments"
           - "Programming Assignments with Examples"
-          - Projects
+          - "Projects"
           - "Projects with Examples"
-          - Readings
+          - "Readings"
           - "Simulation Videos"
+          - "Student Work"
           - "Supplemental Exam Materials"
-          - Tools
+          - "Tools"
           - "Tutorial Videos"
           - "Video Materials"
-          - Videos
+          - "Videos"
           - "Workshop Videos"
           - "Written Assignments"
           - "Written Assignments with Examples"
@@ -559,52 +561,7 @@ collections:
             name: "learning_resource_types"
             widget: select
             multiple: true
-            options:
-              - "Activity Assignments"
-              - "Activity Assignments with Examples"
-              - "Competition Videos"
-              - "Demonstration Audio"
-              - "Demonstration Videos"
-              - "Design Assignments"
-              - "Design Assignments with Examples"
-              - "Editable Files"
-              - Exams
-              - "Exam Solutions"
-              - "Image Gallery"
-              - "Instructor Insights"
-              - "Laboratory Assignments"
-              - "Lecture Audio"
-              - "Lecture Notes"
-              - "Lecture Videos"
-              - "Media Assignments"
-              - "Media Assignments with Examples"
-              - "Multiple Assignment Types"
-              - "Multiple Assignment Types with Solutions"
-              - "Music Audio"
-              - "Open Textbooks"
-              - "Other Audio"
-              - "Other Video"
-              - Podcasts
-              - "Presentation Assignments"
-              - "Presentation Assignments with Examples"
-              - "Problem Sets"
-              - "Problem Set Solutions"
-              - "Problem-solving Notes"
-              - "Problem-solving Videos"
-              - "Programming Assignments"
-              - "Programming Assignments with Examples"
-              - Projects
-              - "Projects with Examples"
-              - Readings
-              - "Simulation Videos"
-              - "Student Work"
-              - "Supplemental Exam Materials"
-              - "Tutorial Videos"
-              - "Video Materials"
-              - Videos
-              - "Workshop Videos"
-              - "Written Assignments"
-              - "Written Assignments with Examples"
+            options: *learning_resource_types
           - label: Instructors
             name: instructors
             widget: relation
