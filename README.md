@@ -5,28 +5,26 @@ websites
 
 ## linting and formatting
 
-We have a YAML linting and formatting setup in this repo to ensure that, at the
+We use pre-commit to ensure that, at the
 least, our checked-in files are valid YAML files.
 
-To install dependencies you'll want to do something like the following:
+To set up pre-commit you'll want to do something like the following:
 
 ```sh
-yarn install # install prettier
-virtualenv env
-source env/bin/activate
-pip install -r requirements.txt # install yamllint
+pip install pre-commit
+pre-commit install
 ```
 
-Then you can run the linter by doing
+Then you can run the pre-commit hooks by doing
 
 ```sh
-yamllint .
+pre-commit run --all-files
 ```
 
-And run the formatter with
+To run only some hooks e.g for the formatter only
 
 ```sh
-yarn fmt
+pre-commit run yamlfmt --all-files
 ```
 
 These checks are run on PRs by GitHub actions as well.
