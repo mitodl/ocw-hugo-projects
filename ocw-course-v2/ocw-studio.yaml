@@ -98,7 +98,7 @@ collections:
         name: audience
         widget: select
         multiple: true
-        options:
+        options: &audience_options
           - Educators
           - Learners
 
@@ -239,6 +239,11 @@ collections:
         widget: select
         multiple: true
         options: *learning_resource_types
+      - label: Audience
+        name: audience
+        widget: select
+        multiple: true
+        options: *audience_options
       - label: "Level"
         name: "level"
         widget: "select"
@@ -504,6 +509,11 @@ collections:
             widget: select
             multiple: true
             options: *learning_resource_types
+          - label: Audience
+            name: audience
+            widget: select
+            multiple: true
+            options: *audience_options
           - label: Instructors
             name: instructors
             widget: relation
