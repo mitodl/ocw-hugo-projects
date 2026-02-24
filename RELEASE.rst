@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.57.0
+Version 0.57.0 (Released February 24, 2026)
 --------------
 
 - Add Audience field to resources and site metadata (#378)
