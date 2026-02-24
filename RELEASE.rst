@@ -1,6 +1,16 @@
 Release Notes
 =============
 
+Version 0.57.0
+--------------
+
+- Add Audience field to resources and site metadata (#378)
+- remove lint dependencies that are no longer used (#366)
+- Add Page metadata fields (#377)
+- Standardize LRT options across course metadata and resources (#376)
+- Expand level metadata options and add level field for resources (#375)
+- [pre-commit.ci] pre-commit autoupdate (#370)
+
 Version 0.56.1 (Released February 12, 2026)
 --------------
 
