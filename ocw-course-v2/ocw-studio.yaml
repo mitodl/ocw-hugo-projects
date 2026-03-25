@@ -118,7 +118,7 @@ collections:
       - label: License
         name: license
         widget: select
-        options:
+        options: &license_options
           - label: CC BY
             value: https://creativecommons.org/licenses/by/4.0/
           - label: CC BY-NC
@@ -270,17 +270,7 @@ collections:
         options: *level_options
       - label: License
         name: license
-        options:
-          - label: CC BY
-            value: https://creativecommons.org/licenses/by/4.0/
-          - label: CC BY-NC
-            value: https://creativecommons.org/licenses/by-nc/4.0/
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
-          - label: CC BY-SA
-            value: https://creativecommons.org/licenses/by-sa/4.0/
-          - label: public domain
-            value: https://creativecommons.org/publicdomain/zero/1.0/
+        options: *license_options
         widget: select
         default: https://creativecommons.org/licenses/by-nc-sa/4.0/
         required: true
@@ -400,19 +390,7 @@ collections:
       - label: License
         name: license
         widget: select
-        options:
-          - label: CC BY
-            value: https://creativecommons.org/licenses/by/4.0/
-          - label: CC BY-NC
-            value: https://creativecommons.org/licenses/by-nc/4.0/
-          - label: CC BY-NC-SA
-            value: https://creativecommons.org/licenses/by-nc-sa/4.0/
-          - label: CC BY-SA
-            value: https://creativecommons.org/licenses/by-sa/4.0/
-          - label: public domain
-            value: https://creativecommons.org/publicdomain/zero/1.0/
-          - label: All Rights Reserved
-            value: https://en.wikipedia.org/wiki/All_rights_reserved
+        options: *license_options
         default: https://en.wikipedia.org/wiki/All_rights_reserved
         required: true
 
