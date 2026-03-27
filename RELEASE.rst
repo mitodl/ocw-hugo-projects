@@ -1,6 +1,14 @@
 Release Notes
 =============
 
+Version 0.57.1
+--------------
+
+- feat: add offline config for course-v3 (#382)
+- Revert "feat: add offline config for course-v3"
+- feat: add offline config for course-v3
+- Add License field to pages (#381)
+
 Version 0.57.0 (Released February 24, 2026)
 --------------
 
