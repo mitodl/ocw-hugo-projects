@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.57.1
+Version 0.57.1 (Released March 31, 2026)
 --------------
 
 - feat: add offline config for course-v3 (#382)
