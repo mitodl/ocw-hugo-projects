@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.57.2
+Version 0.57.2 (Released April 07, 2026)
 --------------
 
 - Add LRT metadata fields to resource lists and video galleries (#385)
