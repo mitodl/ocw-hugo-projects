@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.57.2
+--------------
+
+- Add LRT metadata fields to resource lists and video galleries (#385)
+- Update Learning Resource Type options (#384)
+
 Version 0.57.1 (Released March 31, 2026)
 --------------
 
