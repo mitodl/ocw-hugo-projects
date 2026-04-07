@@ -46,7 +46,7 @@ collections:
         name: "learning_resource_types"
         widget: select
         multiple: true
-        options:
+        options: &page_lrt_options
           - "Activity Assignments"
           - "Activity Assignments with Examples"
           - "Competition Videos"
@@ -154,6 +154,12 @@ collections:
         name: description
         widget: markdown
 
+      - label: "Learning Resource Types"
+        name: "learning_resource_types"
+        widget: select
+        multiple: true
+        options: *page_lrt_options
+
       - name: resources
         label: Resources
         widget: relation
@@ -189,6 +195,12 @@ collections:
           - page
         embed:
           - resource
+
+      - label: "Learning Resource Types"
+        name: "learning_resource_types"
+        widget: select
+        multiple: true
+        options: *page_lrt_options
 
       - label: Videos
         name: videos
