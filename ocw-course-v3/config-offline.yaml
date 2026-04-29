@@ -44,7 +44,6 @@ security:
       - COURSE_V3_CANONICAL_DOMAIN
       - SENTRY_DSN
       - NOINDEX
-      - COURSE_V3_NOINDEX
   http:
     methods:
       - (?i)GET|HEAD
