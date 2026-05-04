@@ -396,8 +396,8 @@ collections:
             multiple: false
             filter:
               field: "resourcetype"
-              filter_type: "not_equals"
-              value: "Video"
+              filter_type: "equals"
+              value: "Other"
           - label: Video Transcript Resource
             name: video_transcript_resource
             widget: relation
@@ -406,8 +406,8 @@ collections:
             multiple: false
             filter:
               field: "resourcetype"
-              filter_type: "not_equals"
-              value: "Video"
+              filter_type: "equals"
+              value: "Document"
           - label: Internet Archive URL
             name: archive_url
             widget: string
