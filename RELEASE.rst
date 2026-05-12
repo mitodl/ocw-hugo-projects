@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.57.3
+Version 0.57.3 (Released May 12, 2026)
 --------------
 
 - Make Student Work LRT course-level only (#390)
