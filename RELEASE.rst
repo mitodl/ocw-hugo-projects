@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.57.4
+Version 0.57.4 (Released May 13, 2026)
 --------------
 
 - Add Nuclear Energy course topic (#392)
