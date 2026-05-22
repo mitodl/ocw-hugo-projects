@@ -1,6 +1,11 @@
 Release Notes
 =============
 
+Version 0.57.5
+--------------
+
+- Remove Nuclear course topic (#394)
+
 Version 0.57.4 (Released May 13, 2026)
 --------------
 
