@@ -68,7 +68,6 @@ collections:
           - "Multiple Assignment Types"
           - "Multiple Assignment Types with Solutions"
           - "Music Audio"
-          - "Open Textbooks"
           - "Other Audio"
           - "Other Video"
           - "Podcasts"
@@ -84,7 +83,6 @@ collections:
           - "Projects with Examples"
           - "Readings"
           - "Simulation Videos"
-          - "Student Work"
           - "Supplemental Exam Materials"
           - "Tools"
           - "Tutorial Videos"
@@ -306,7 +304,6 @@ collections:
           - "Projects with Examples"
           - "Readings"
           - "Simulation Videos"
-          - "Student Work"
           - "Supplemental Exam Materials"
           - "Tools"
           - "Tutorial Videos"
@@ -648,7 +645,7 @@ collections:
                 Fossil Fuels: []
                 Fuel Cells: []
                 Hydrogen and Alternatives: []
-                Nuclear: []
+                Nuclear Energy: []
                 Renewables: []
                 Technology: []
                 Transportation: []

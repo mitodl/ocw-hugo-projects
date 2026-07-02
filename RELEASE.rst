@@ -1,6 +1,22 @@
 Release Notes
 =============
 
+Version 0.57.5 (Released May 22, 2026)
+--------------
+
+- Remove Nuclear course topic (#394)
+
+Version 0.57.4 (Released May 13, 2026)
+--------------
+
+- Add Nuclear Energy course topic (#392)
+
+Version 0.57.3 (Released May 12, 2026)
+--------------
+
+- Make Student Work LRT course-level only (#390)
+- chore: added config in course-v3 theme for seo (#387)
+
 Version 0.57.2 (Released April 07, 2026)
 --------------
 
