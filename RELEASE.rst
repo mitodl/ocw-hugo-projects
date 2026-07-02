@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.58.0
+--------------
+
+- feat: migrate caption and transcript resource relation (#389)
+- chore: removed captions and transcript file fields (#388)
+- Remove "Open Textbooks" learning resource type from pages (#396)
+
 Version 0.57.5 (Released May 22, 2026)
 --------------
 
