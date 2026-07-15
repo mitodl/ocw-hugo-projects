@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.58.0
+Version 0.58.0 (Released July 15, 2026)
 --------------
 
 - feat: migrate caption and transcript resource relation (#389)
