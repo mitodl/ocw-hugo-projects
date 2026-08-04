@@ -322,13 +322,6 @@ collections:
         widget: "select"
         multiple: true
         options: *level_options
-      - label: License
-        name: license
-        options: *license_options
-        widget: select
-        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
-        required: true
-
       # Shown on every resource rather than only captions and transcripts:
       # `condition` supports a single `equals`, and captions are
       # resourcetype "Other" while transcripts are "Document", so the target
@@ -343,9 +336,6 @@ collections:
         required: false
         help: Language of this file. Detected from the filename when unset.
         options:
-          # Selecting this restores filename detection. Without it the widget
-          # is not clearable, so a mis-picked value could never be undone.
-          - {label: "Detect from filename", value: ""}
           - {label: English, value: en}
           - {label: Arabic, value: ar}
           - {label: Chinese, value: zh}
@@ -393,6 +383,13 @@ collections:
           - {label: "Taiwan (TW)", value: TW}
           - {label: "United Kingdom (GB)", value: GB}
           - {label: "United States (US)", value: US}
+
+      - label: License
+        name: license
+        options: *license_options
+        widget: select
+        default: https://creativecommons.org/licenses/by-nc-sa/4.0/
+        required: true
 
       # show the field below only if the type of resource is "image"
       - label: Image Metadata
