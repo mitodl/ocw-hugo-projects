@@ -363,9 +363,6 @@ collections:
         required: false
         help: Optional regional variant, for example Portuguese (BR).
         options:
-          # Same reason as Language above: without an explicit empty option a
-          # mis-picked region could not be cleared back to none.
-          - {label: "No regional variant", value: ""}
           - {label: "Argentina (AR)", value: AR}
           - {label: "Australia (AU)", value: AU}
           - {label: "Austria (AT)", value: AT}
