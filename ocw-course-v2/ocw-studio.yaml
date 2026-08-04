@@ -329,6 +329,65 @@ collections:
         default: https://creativecommons.org/licenses/by-nc-sa/4.0/
         required: true
 
+      # Shown on every resource rather than only captions and transcripts:
+      # `condition` supports a single `equals`, and captions are
+      # resourcetype "Other" while transcripts are "Document", so the target
+      # set is not expressible. Studio pre-fills these from the filename when
+      # unset, so an editor always sees the value that will publish.
+      # The language list must stay in step with human_language.html in
+      # ocw-hugo-themes, which maps exactly these 20 codes to display names
+      # and otherwise renders a bare uppercase code.
+      - label: Language
+        name: language
+        widget: select
+        required: false
+        help: The language of this file. Detected from the filename when left unset.
+        options:
+          - {label: English, value: en}
+          - {label: Arabic, value: ar}
+          - {label: Chinese, value: zh}
+          - {label: Dutch, value: nl}
+          - {label: French, value: fr}
+          - {label: German, value: de}
+          - {label: Hebrew, value: he}
+          - {label: Hindi, value: hi}
+          - {label: Italian, value: it}
+          - {label: Japanese, value: ja}
+          - {label: Korean, value: ko}
+          - {label: Polish, value: pl}
+          - {label: Portuguese, value: pt}
+          - {label: Russian, value: ru}
+          - {label: Spanish, value: es}
+          - {label: Swedish, value: sv}
+          - {label: Thai, value: th}
+          - {label: Turkish, value: tr}
+          - {label: Ukrainian, value: uk}
+          - {label: Vietnamese, value: vi}
+
+      - label: Locale
+        name: locale
+        widget: select
+        required: false
+        help: Optional regional variant, for example Portuguese (BR).
+        options:
+          - {label: "Argentina (AR)", value: AR}
+          - {label: "Australia (AU)", value: AU}
+          - {label: "Austria (AT)", value: AT}
+          - {label: "Brazil (BR)", value: BR}
+          - {label: "Canada (CA)", value: CA}
+          - {label: "China (CN)", value: CN}
+          - {label: "France (FR)", value: FR}
+          - {label: "Germany (DE)", value: DE}
+          - {label: "Hong Kong (HK)", value: HK}
+          - {label: "India (IN)", value: IN}
+          - {label: "Mexico (MX)", value: MX}
+          - {label: "Portugal (PT)", value: PT}
+          - {label: "Spain (ES)", value: ES}
+          - {label: "Switzerland (CH)", value: CH}
+          - {label: "Taiwan (TW)", value: TW}
+          - {label: "United Kingdom (GB)", value: GB}
+          - {label: "United States (US)", value: US}
+
       # show the field below only if the type of resource is "image"
       - label: Image Metadata
         name: image_metadata
