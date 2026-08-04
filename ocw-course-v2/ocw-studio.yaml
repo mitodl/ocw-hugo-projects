@@ -341,8 +341,11 @@ collections:
         name: language
         widget: select
         required: false
-        help: The language of this file. Detected from the filename when left unset.
+        help: Language of this file. Detected from the filename when unset.
         options:
+          # Selecting this restores filename detection. Without it the widget
+          # is not clearable, so a mis-picked value could never be undone.
+          - {label: "Detect from filename", value: ""}
           - {label: English, value: en}
           - {label: Arabic, value: ar}
           - {label: Chinese, value: zh}
@@ -370,6 +373,9 @@ collections:
         required: false
         help: Optional regional variant, for example Portuguese (BR).
         options:
+          # Same reason as Language above: without an explicit empty option a
+          # mis-picked region could not be cleared back to none.
+          - {label: "No regional variant", value: ""}
           - {label: "Argentina (AR)", value: AR}
           - {label: "Australia (AU)", value: AU}
           - {label: "Austria (AT)", value: AT}
