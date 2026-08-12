@@ -1,6 +1,13 @@
 Release Notes
 =============
 
+Version 0.59.0
+--------------
+
+- feat: add language and locale fields to the resource content type (#400)
+- Add department 21T to course site config (#399)
+- Add zizmor GitHub Actions static analysis (#401)
+
 Version 0.58.0 (Released July 15, 2026)
 --------------
 
