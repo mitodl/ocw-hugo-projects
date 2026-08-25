@@ -1,7 +1,7 @@
 Release Notes
 =============
 
-Version 0.59.0
+Version 0.59.0 (Released August 25, 2026)
 --------------
 
 - feat: add language and locale fields to the resource content type (#400)
