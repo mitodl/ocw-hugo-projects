@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.60.0
+--------------
+
+- fix: clarify youtube tags help text is per-tag not total (#404)
+- feat: add image dimension help text to promo image field (#405)
+
 Version 0.59.0 (Released August 25, 2026)
 --------------
 
