@@ -419,9 +419,10 @@ collections:
           - label: Youtube Speakers
             name: video_speakers
             widget: string
-          - label: Youtube Tags (comma separated; max 100 characters)
+          - label: Youtube Tags (comma separated)
             name: video_tags
             widget: text
+            help: Maximum 100 characters per tag, 500 characters total.
           - label: Source
             name: source
             widget: hidden
@@ -1020,7 +1021,6 @@ collections:
             levels:
               - {label: "Topic", name: "topic"}
               - {label: "Subtopic", name: "subtopic"}
-            max: 2
             help: Only MIT Learn content curators should edit this.
             options_map:
               Art, Design & Architecture:

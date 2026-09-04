@@ -209,6 +209,7 @@ collections:
         multiple: false
         min: 1
         max: 1
+        help: Recommended image size is 1920x1080 (16:9 aspect ratio).
         filter:
           field: "resourcetype"
           filter_type: "equals"
@@ -445,9 +446,10 @@ collections:
           - label: Youtube Speakers
             name: video_speakers
             widget: string
-          - label: Youtube Tags (comma separated; max 100 characters)
+          - label: Youtube Tags (comma separated)
             name: video_tags
             widget: text
+            help: Maximum 100 characters per tag, 500 characters total.
           - label: Source
             name: source
             widget: hidden
