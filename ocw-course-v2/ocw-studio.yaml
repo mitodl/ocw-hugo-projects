@@ -400,6 +400,9 @@ collections:
           - label: Caption
             name: caption
             widget: markdown
+            allowed_html:
+              - sub
+              - sup
           - label: Credit
             name: credit
             widget: markdown
