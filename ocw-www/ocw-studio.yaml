@@ -428,6 +428,9 @@ collections:
             name: caption
             widget: markdown
             minimal: "with-subsup"
+            allowed_html:
+              - sub
+              - sup
           - label: Credit
             name: credit
             widget: markdown
