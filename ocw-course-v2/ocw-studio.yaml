@@ -400,9 +400,7 @@ collections:
           - label: Caption
             name: caption
             widget: markdown
-            allowed_html:
-              - sub
-              - sup
+            minimal: "with-subsup"
           - label: Credit
             name: credit
             widget: markdown
