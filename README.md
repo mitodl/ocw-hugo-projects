@@ -5,26 +5,31 @@ websites
 
 ## linting and formatting
 
-We use pre-commit to ensure that, at the
-least, our checked-in files are valid YAML files.
+We use [prek](https://prek.j178.dev/) to ensure that, at the
+least, our checked-in files are valid YAML files. It reads `.pre-commit-config.yaml`.
 
-To set up pre-commit you'll want to do something like the following:
+Install the version pinned in `.github/workflows/autofix.yml`:
 
 ```sh
-pip install pre-commit
-pre-commit install
+uv tool install prek==0.5.3
+prek install -f
 ```
 
-Then you can run the pre-commit hooks by doing
+`prek install -f` replaces an existing pre-commit git hook, if one is installed.
+
+Then you can run the hooks by doing
 
 ```sh
-pre-commit run --all-files
+prek run --all-files
 ```
 
 To run only some hooks e.g for the formatter only
 
 ```sh
-pre-commit run yamlfmt --all-files
+prek run yamlfmt --all-files
 ```
 
-These checks are run on PRs by GitHub actions as well.
+The `prek` check runs these hooks on PRs and pushes to `main` through GitHub
+Actions. On PRs, when the hooks' own fixes make every hook pass,
+[autofix.ci](https://autofix.ci/) pushes them as one commit. It refuses fixes to
+files under `.github/`, so fix those locally.
