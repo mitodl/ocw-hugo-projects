@@ -11,7 +11,7 @@ least, our checked-in files are valid YAML files. It reads `.pre-commit-config.y
 Install the version pinned in `.github/workflows/autofix.yml`:
 
 ```sh
-uv tool install prek==0.5.4
+uv tool install prek==0.5.3
 prek install -f
 ```
 
