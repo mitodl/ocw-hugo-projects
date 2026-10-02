@@ -334,7 +334,6 @@ collections:
         name: language
         widget: select
         required: false
-        clearable: true
         help: Language of this file. Detected from the filename when unset.
         options:
           - {label: English, value: en}
