@@ -361,6 +361,7 @@ collections:
         name: locale
         widget: select
         required: false
+        clearable: true
         help: Optional regional variant, for example Portuguese (BR).
         options:
           - {label: "Argentina (AR)", value: AR}
