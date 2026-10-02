@@ -1,8 +1,4 @@
 ---
-ci:
-  # autofix.ci owns fix commits; remove this block after
-  # pre-commit.ci is deselected
-  autofix_prs: false
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
