@@ -1,6 +1,15 @@
 Release Notes
 =============
 
+Version 0.60.1
+--------------
+
+- Allow sub/sup HTML in OCW Studio image captions (#409)
+- fix: make the locale select clearable (#414)
+- chore: remove the interim pre-commit.ci ci: block (#413)
+- Add Haitian Creole (#412)
+- ci: run hooks with prek in autofix.ci instead of pre-commit.ci fixes (#411)
+
 Version 0.60.0
 --------------
 
