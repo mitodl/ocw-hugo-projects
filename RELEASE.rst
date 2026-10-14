@@ -1,6 +1,12 @@
 Release Notes
 =============
 
+Version 0.60.2
+--------------
+
+- Update pre-commit hook zizmorcore/zizmor-pre-commit to v1.30.1 (#410)
+- Allow COURSE_V3_CANONICAL_DOMAIN in the course v2 Hugo config (#416)
+
 Version 0.60.1
 --------------
 
