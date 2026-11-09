@@ -5,7 +5,7 @@ websites
 
 ## Releasing
 
-Releases are tags only. There is no `release` or `release-candidate` branch to merge into: the Concourse release workflow cuts a release from `main`, and the `/doof` Slack command drives it. The Slack steps are the same as for [`ocw-hugo-themes`](https://github.com/mitodl/ocw-hugo-themes#releasing), with `ocw-hugo-projects` in place of `ocw-hugo-themes` and `#doof-ocw-hugo-projects` as the channel. The theme-assets and `static/hash.txt` checks there do not apply: that hash identifies an `ocw-hugo-themes` commit, and nothing built from this repo changes it. The general workflow is on the [Concourse release workflow handbook page](https://engineering.ol.mit.edu/handbook/delivering/release-process/concourse-release-workflow/).
+Releases are tags only. There is no `release` or `release-candidate` branch to merge into: the Concourse release workflow cuts a release from `main`, and the `/doof` Slack command drives it. The Slack steps are the same as for [`ocw-hugo-themes`](https://github.com/mitodl/ocw-hugo-themes#releasing), with `ocw-hugo-projects` in place of `ocw-hugo-themes`. Both repos share the `#doof-ocw-hugo-themes` channel, where the bot announces releases of either. The theme-assets and `static/hash.txt` checks there do not apply: that hash identifies an `ocw-hugo-themes` commit, and nothing built from this repo changes it. The general workflow is on the [Concourse release workflow handbook page](https://engineering.ol.mit.edu/handbook/delivering/release-process/concourse-release-workflow/).
 
 What matters for this repo:
 
